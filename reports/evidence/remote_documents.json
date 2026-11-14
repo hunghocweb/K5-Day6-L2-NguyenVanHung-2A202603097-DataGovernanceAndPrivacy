@@ -1,0 +1,149 @@
+{
+  "commit": "b0ce8bfd972315448aace86185c1a3e075754b93",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 645,
+      "sha256": "1f8d811da3ef487eed08dbdf5088f2b88ab0a0b00ed1d73422c020eca2078f24",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/.gitignore"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 1985,
+      "sha256": "168e19c899e8b1e8d534763cb950afe96189c6f28d1a42b23c6fd4a224f6fb8f",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/Makefile"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12682,
+      "sha256": "18c8abd34e1468d1900c2bd21bb02efe86145388138d4855e8e7187d72a2e960",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/README.md"
+    },
+    {
+      "path": "configs/lab.yaml",
+      "bytes": 872,
+      "sha256": "499f9fb0fc5cc850c685d19a61c5f9e9808bd8dad813e19cc1e3029dd93b6dbe",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/configs/lab.yaml"
+    },
+    {
+      "path": "configs/tracks/t07.yaml",
+      "bytes": 383,
+      "sha256": "c8ef44e275f815babc416ae0be1e4ffbaa766619f09c101b0d2e70af87a15a1d",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/configs/tracks/t07.yaml"
+    },
+    {
+      "path": "docs/INSTRUCTOR_SETUP.md",
+      "bytes": 6210,
+      "sha256": "afb54da49b78f8f4829faeb5f5e6b082d46b540124df3ad5de0dba315cf54923",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/INSTRUCTOR_SETUP.md"
+    },
+    {
+      "path": "docs/tracks/T01.md",
+      "bytes": 4798,
+      "sha256": "1523b7ca30d6e511afdb2da8f5449bb6afeea2824a60e32b447e1898914bc3c8",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T01.md"
+    },
+    {
+      "path": "docs/tracks/T02.md",
+      "bytes": 4110,
+      "sha256": "ea6c87a378ad056656a332a8aef5a56cfbb195cd2271982d11a366dfb1fd013f",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T02.md"
+    },
+    {
+      "path": "docs/tracks/T03.md",
+      "bytes": 4332,
+      "sha256": "b6c6459811d1494dd62e19f09040846dfff1f062868cebbe8b09c2ddfeb6b2a9",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T03.md"
+    },
+    {
+      "path": "docs/tracks/T04.md",
+      "bytes": 4104,
+      "sha256": "ea261a2b0b0919dc7f1364e362bea7d613ffcf82508ed07b5ca4f167bf8dd8d6",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T04.md"
+    },
+    {
+      "path": "docs/tracks/T05.md",
+      "bytes": 3964,
+      "sha256": "5694dbb61131a8a5704e8d566030405b6b594ce8805fa9a66563b6be9a4c1847",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T05.md"
+    },
+    {
+      "path": "docs/tracks/T06.md",
+      "bytes": 4688,
+      "sha256": "0c00c9a6940031641ff103dd1cb48329f9f67c47dc193014cc1cf19de52e6426",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T06.md"
+    },
+    {
+      "path": "docs/tracks/T07.md",
+      "bytes": 5256,
+      "sha256": "c5a4c669cd347ec7105cd17cf0caa0a23e44e88d9769dc796af9de56d51c84a7",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T07.md"
+    },
+    {
+      "path": "docs/tracks/T08.md",
+      "bytes": 4388,
+      "sha256": "c53bcc7ffa5fb30eb14de200c2cd8c8b409e60133593906e5b49edee5860f764",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T08.md"
+    },
+    {
+      "path": "docs/tracks/T09.md",
+      "bytes": 6018,
+      "sha256": "037591e2939f38ea3b8400dde32336ba88e773e2527b3042bad9977470af4fcd",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T09.md"
+    },
+    {
+      "path": "docs/tracks/T10.md",
+      "bytes": 4349,
+      "sha256": "eb69e5bef1f93adc7784a0ff0b3bc540fcf32c9c3d94d9d0ed2c3261e57ed22e",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T10.md"
+    },
+    {
+      "path": "docs/tracks/T11.md",
+      "bytes": 4300,
+      "sha256": "480599f807003b3dcbdc4a9b1df27ea300164be5eaa9ba5dd5fc9ddafa650b82",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T11.md"
+    },
+    {
+      "path": "docs/tracks/T12.md",
+      "bytes": 5498,
+      "sha256": "b7b998c96de54baa076a20ad7d92b4f59f519542d1b0cd1dd1b43f9c78fa2fe2",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T12.md"
+    },
+    {
+      "path": "docs/tracks/T13.md",
+      "bytes": 3902,
+      "sha256": "2ee97a9d7e63787bf53163c8399c4f72b41daebff85c1983f9abe5a154756d9c",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T13.md"
+    },
+    {
+      "path": "docs/tracks/T14.md",
+      "bytes": 4307,
+      "sha256": "45030ece9394afb941479aee35927b78cbda71e13b439eb2b72cdd0fe234fd0b",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/docs/tracks/T14.md"
+    },
+    {
+      "path": "reports/README.md",
+      "bytes": 1037,
+      "sha256": "6039fabca2f23d92b983b2251aed8efb84619bc72c5bdcaa031e9d9b3d365815",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/reports/README.md"
+    },
+    {
+      "path": "reports/group_report.md",
+      "bytes": 5169,
+      "sha256": "ac2c3bf1b7f849a2dcb42930f2775c83d253af83414a7dde083581add95b6e68",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/reports/group_report.md"
+    },
+    {
+      "path": "reports/metric_contract.md",
+      "bytes": 1144,
+      "sha256": "1c1cbfbecca74412d8a03eed1dc7e60fb9e3255c9c2b2b9b92c87b0241ea2fac",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/reports/metric_contract.md"
+    },
+    {
+      "path": "reports/team_contributions.csv",
+      "bytes": 359,
+      "sha256": "b05a5f57fef01f6be580744cd8cf975e8b159bd0aace92e205e1d3cb259e4c02",
+      "url": "https://raw.githubusercontent.com/hunghocweb/K5-Day6-L2-NguyenVanHung-2A202603097-DataGovernanceAndPrivacy/b0ce8bfd972315448aace86185c1a3e075754b93/reports/team_contributions.csv"
+    }
+  ]
+}

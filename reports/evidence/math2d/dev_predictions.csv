@@ -1,0 +1,223 @@
+image_id,x,y,w,h,type,confidence,source,merged_sources,body_xywh,panel_xywh
+pii_00,20,138,29,35,face,0.8944070080862534,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_00,33,194,19,22,face,0.8902996845425868,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_00,275,305,27,31,face,0.8875549968573224,router_union,['v3_ellipse_eyes_lower_feature'],,
+pii_00,273,156,26,27,face,0.8852830188679245,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_00,169,244,31,10,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[173, 246, 20, 7]","[177, 248, 15, 2]"
+pii_02,349,103,34,40,face,0.8953279424977538,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_02,206,128,27,32,face,0.8876521739130434,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_02,243,157,12,14,face,0.8217073895583904,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_02,231,178,28,17,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[226, 174, 27, 18]","[239, 182, 12, 9]"
+pii_02,283,258,61,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[263, 243, 94, 39]","[291, 262, 45, 12]"
+pii_07,399,154,14,13,face,0.8886519061238367,router_union,"['v3_ellipse_eyes_lower_feature', 'v4_local_face_pattern']",,
+pii_07,214,131,18,17,face,0.841188009279352,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_07,307,177,16,18,face,0.8407908955298748,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_07,217,236,51,19,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[215, 222, 69, 36]","[225, 240, 35, 11]"
+pii_07,399,257,61,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[378, 240, 97, 40]","[407, 261, 45, 12]"
+pii_08,15,293,37,46,face,0.8942688679245283,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_08,598,211,33,42,face,0.8892220902612826,router_union,['v3_ellipse_eyes_lower_feature'],,
+pii_08,85,103,34,40,face,0.8850810295519542,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_08,30,102,14,20,face,0.844686759738035,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_08,255,183,40,17,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[252, 180, 42, 18]","[263, 187, 24, 9]"
+pii_08,274,300,72,23,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[246, 279, 121, 50]","[282, 304, 56, 15]"
+pii_08,290,187,52,19,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[288, 184, 47, 20]","[298, 191, 36, 11]"
+pii_10,104,93,32,35,face,0.8895427286356822,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_10,119,168,32,35,face,0.8883168693009118,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_10,133,177,11,12,face,0.8807142857142857,router_union,['v3_ellipse_eyes_lower_feature'],,
+pii_10,628,82,12,14,face,0.8210921513619109,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_10,71,323,74,26,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[36, 298, 139, 57]","[79, 327, 58, 18]"
+pii_10,445,256,62,21,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[425, 240, 98, 42]","[453, 260, 46, 13]"
+pii_10,446,325,78,25,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[412, 301, 138, 56]","[454, 329, 62, 17]"
+pii_11,575,211,33,41,face,0.8848236386138614,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_11,496,181,29,35,face,0.8791468168038112,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_11,390,152,12,13,face,0.8504844167349221,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_11,293,230,49,18,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[279, 219, 73, 30]","[301, 234, 33, 10]"
+pii_12,399,148,13,14,face,0.8957229185104371,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_12,345,159,15,16,face,0.8886375988703534,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_12,565,191,14,16,face,0.8644100336129328,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_12,464,105,16,16,face,0.8593077908509594,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_12,77,150,12,12,face,0.835785771818722,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_12,527,88,14,15,face,0.8183,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_12,327,297,67,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[298, 276, 123, 51]","[335, 301, 51, 16]"
+pii_12,362,182,45,21,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[360, 180, 41, 20]","[370, 186, 29, 13]"
+pii_12,461,106,22,12,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[410, 102, 108, 18]","[469, 110, 6, 4]"
+pii_14,447,289,28,34,face,0.8906820156385752,router_union,['v3_ellipse_eyes_lower_feature'],,
+pii_14,227,194,28,33,face,0.8882833186231245,router_union,['v3_ellipse_eyes_lower_feature'],,
+pii_14,628,135,12,13,face,0.842960001483677,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_14,605,110,18,17,face,0.8223485436893204,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_14,176,119,18,20,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_14,172,319,82,26,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[140, 296, 136, 56]","[180, 323, 66, 18]"
+pii_14,369,195,58,23,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[360, 193, 61, 26]","[377, 199, 42, 15]"
+pii_15,201,55,41,48,face,0.89021113243762,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_15,356,160,21,25,face,0.8782131661442006,v3_ellipse_eyes_lower_feature,['v3_ellipse_eyes_lower_feature'],,
+pii_15,237,208,48,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[227, 204, 65, 22]","[245, 212, 32, 12]"
+pii_15,328,188,43,18,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[323, 184, 53, 20]","[336, 192, 27, 10]"
+pii_15,411,314,77,25,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[381, 292, 130, 52]","[419, 318, 61, 17]"
+pii_16,225,245,23,27,face,0.8940771349862259,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_16,534,237,44,49,face,0.8823149741824441,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_16,487,100,21,23,face,0.8798645320197045,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_16,226,147,13,17,face,0.8642965199084993,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_16,369,131,30,37,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_16,117,311,71,23,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[87, 288, 128, 53]","[125, 315, 55, 15]"
+pii_16,124,92,63,16,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[120, 76, 62, 29]","[132, 96, 47, 8]"
+pii_16,230,248,62,26,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[219, 237, 93, 37]","[238, 252, 46, 18]"
+pii_16,236,234,29,11,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[235, 220, 60, 22]","[244, 238, 13, 3]"
+pii_16,324,185,40,17,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[320, 181, 47, 19]","[332, 189, 24, 9]"
+pii_16,344,198,32,12,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[348, 200, 21, 9]","[352, 202, 16, 4]"
+pii_19,372,323,17,19,face,0.9046450870522955,router_union,"['v3_ellipse_eyes_lower_feature', 'v4_local_face_pattern']",,
+pii_19,173,218,10,12,face,0.8818181818181818,v3_ellipse_eyes_lower_feature,['v3_ellipse_eyes_lower_feature'],,
+pii_19,163,213,23,28,face,0.8428649513124794,router_union,"['local_ellipse_aligned_luminance_chroma', 'v4_local_face_pattern']",,
+pii_19,301,70,33,41,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_19,263,191,47,14,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[268, 188, 46, 14]","[271, 195, 31, 6]"
+pii_19,269,205,50,22,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[261, 200, 63, 24]","[277, 209, 34, 14]"
+pii_19,356,212,49,19,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[358, 205, 56, 25]","[364, 216, 33, 11]"
+pii_21,555,178,29,35,face,0.8940797940797941,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_21,456,131,31,41,face,0.8920698494072412,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_21,521,76,37,57,face,0.8898648648648648,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_21,136,256,22,10,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[114, 237, 68, 26]","[144, 260, 6, 2]"
+pii_21,164,307,70,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[134, 285, 127, 52]","[172, 311, 54, 16]"
+pii_21,191,311,28,15,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[174, 314, 45, 11]","[199, 315, 12, 7]"
+pii_21,250,285,61,21,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[238, 267, 89, 44]","[258, 289, 45, 13]"
+pii_21,257,290,29,13,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[262, 291, 29, 9]","[265, 294, 13, 5]"
+pii_22,152,245,21,22,face,0.8914749661705007,router_union,"['v3_ellipse_eyes_lower_feature', 'v4_local_face_pattern']",,
+pii_22,76,223,23,26,face,0.8913793103448275,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_22,329,295,27,29,face,0.884919028340081,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_22,110,270,60,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[88, 252, 102, 43]","[118, 274, 44, 12]"
+pii_22,345,217,50,18,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[352, 208, 49, 28]","[353, 221, 34, 10]"
+pii_24,437,87,41,50,face,0.8878827001106603,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_24,397,225,28,35,face,0.8860494880546075,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_24,137,233,38,46,face,0.8801529873888774,v3_ellipse_eyes_lower_feature,['v3_ellipse_eyes_lower_feature'],,
+pii_24,158,243,34,42,face,0.8791280979396835,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_24,124,280,60,29,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[98, 263, 113, 50]","[132, 285, 44, 19]"
+pii_24,147,275,24,13,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[98, 260, 114, 53]","[155, 279, 8, 5]"
+pii_24,162,278,23,11,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[97, 246, 124, 68]","[170, 282, 7, 3]"
+pii_24,394,207,47,19,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[387, 201, 59, 24]","[402, 211, 31, 11]"
+pii_24,422,297,71,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[395, 278, 119, 47]","[430, 301, 55, 16]"
+pii_25,150,96,29,35,face,0.8916341653666147,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_25,207,238,53,19,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[193, 226, 78, 32]","[215, 242, 37, 11]"
+pii_25,321,261,61,37,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[300, 256, 104, 44]","[329, 267, 45, 25]"
+pii_25,379,285,70,23,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[355, 267, 110, 46]","[387, 289, 54, 15]"
+pii_25,398,290,31,15,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[400, 292, 29, 10]","[406, 294, 15, 7]"
+pii_26,107,289,34,40,face,0.8951219512195122,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_26,133,265,34,12,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[137, 266, 27, 8]","[141, 269, 18, 4]"
+pii_26,206,301,70,22,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[176, 279, 123, 51]","[214, 305, 54, 14]"
+pii_26,330,131,57,13,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[308, 96, 98, 46]","[338, 135, 41, 5]"
+pii_26,459,283,70,22,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[434, 264, 113, 46]","[467, 287, 54, 14]"
+pii_27,578,133,12,13,face,0.8245412045619527,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_27,297,169,34,15,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[294, 166, 40, 15]","[305, 173, 18, 7]"
+pii_27,397,200,52,17,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[388, 193, 59, 24]","[405, 204, 36, 9]"
+pii_29,198,82,13,14,face,0.8895104895104895,router_union,"['v3_ellipse_eyes_lower_feature', 'v4_local_face_pattern']",,
+pii_29,580,318,18,20,face,0.8884146341463415,router_union,"['v3_ellipse_eyes_lower_feature', 'v4_local_face_pattern']",,
+pii_29,131,291,69,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[104, 272, 116, 48]","[139, 295, 53, 16]"
+pii_29,179,91,98,19,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[105, 70, 185, 38]","[187, 95, 82, 11]"
+pii_29,221,140,27,14,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[188, 96, 102, 57]","[229, 144, 11, 6]"
+pii_29,221,219,53,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[210, 210, 70, 30]","[229, 223, 37, 12]"
+pii_29,242,172,41,16,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[240, 169, 39, 16]","[250, 176, 25, 8]"
+pii_29,424,104,22,10,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[385, 42, 199, 111]","[432, 108, 6, 2]"
+pii_30,180,84,38,46,face,0.8957201086956521,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_30,149,263,25,29,face,0.8897523484201537,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_30,310,184,24,31,face,0.8875,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_30,320,134,33,39,face,0.8859436435124508,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_30,103,175,29,26,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_30,139,300,69,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[109, 278, 125, 53]","[147, 304, 53, 16]"
+pii_30,449,245,53,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[430, 231, 89, 37]","[457, 249, 37, 12]"
+pii_31,39,159,30,35,face,0.8928683693516699,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_31,485,70,23,27,face,0.8927792915531335,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_31,337,326,30,33,face,0.8921290322580645,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_31,450,209,32,40,face,0.8845273483947681,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_31,62,46,81,16,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[49, 36, 88, 23]","[70, 50, 65, 8]"
+pii_31,130,316,78,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[99, 293, 132, 54]","[138, 320, 62, 16]"
+pii_31,399,233,51,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[384, 222, 80, 34]","[407, 237, 35, 12]"
+pii_31,447,299,72,25,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[418, 277, 122, 51]","[455, 303, 56, 17]"
+pii_34,85,206,42,50,face,0.8956184390689184,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_34,557,157,30,35,face,0.8945962732919255,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_34,483,237,37,44,face,0.8923828125,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_34,293,202,44,17,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[284, 194, 60, 26]","[301, 206, 28, 9]"
+pii_34,493,310,72,23,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[463, 287, 128, 53]","[501, 314, 56, 15]"
+pii_36,551,198,22,27,face,0.8925228891149541,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_36,235,173,28,31,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_36,293,221,20,24,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_36,263,183,23,10,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[259, 177, 34, 15]","[271, 187, 7, 2]"
+pii_36,323,205,44,18,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[312, 196, 68, 28]","[331, 209, 28, 10]"
+pii_38,101,181,36,42,face,0.8957248561249658,router_union,['v3_ellipse_eyes_lower_feature'],,
+pii_38,493,138,31,40,face,0.8918153200419727,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_38,157,249,36,42,face,0.889487870619946,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_38,190,205,47,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[181, 200, 63, 23]","[198, 209, 31, 12]"
+pii_38,237,184,23,10,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[235, 180, 33, 13]","[245, 188, 7, 2]"
+pii_38,344,230,51,21,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[330, 220, 78, 32]","[352, 234, 35, 13]"
+pii_39,134,173,16,18,face,0.9062011197635106,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature', 'v4_local_face_pattern']",,
+pii_39,175,279,15,18,face,0.8926852090285626,router_union,"['v3_ellipse_eyes_lower_feature', 'v4_local_face_pattern']",,
+pii_39,0,264,15,17,face,0.8878338156789165,router_union,"['v3_ellipse_eyes_lower_feature', 'v4_local_face_pattern']",,
+pii_39,69,105,52,12,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[60, 89, 55, 25]","[77, 109, 36, 4]"
+pii_39,106,72,64,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[61, 66, 103, 29]","[114, 76, 48, 16]"
+pii_39,283,190,52,17,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[278, 185, 50, 21]","[291, 194, 36, 9]"
+pii_40,526,206,35,40,face,0.8964953271028038,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_40,116,126,35,42,face,0.8951002865329513,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_40,455,241,41,48,face,0.8910757946210269,router_union,['v3_ellipse_eyes_lower_feature'],,
+pii_40,502,295,37,43,face,0.8886733902249806,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_40,476,256,10,11,face,0.8846938775510205,v3_ellipse_eyes_lower_feature,['v3_ellipse_eyes_lower_feature'],,
+pii_40,173,277,60,23,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[152, 261, 105, 42]","[181, 281, 44, 15]"
+pii_40,319,312,70,26,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[289, 292, 128, 51]","[327, 316, 54, 18]"
+pii_42,144,222,30,34,face,0.8916878172588832,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_42,493,258,27,31,face,0.8883832673827021,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_42,79,253,21,25,face,0.887514654161782,router_union,['v3_ellipse_eyes_lower_feature'],,
+pii_42,58,303,72,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[29, 281, 125, 53]","[66, 307, 56, 16]"
+pii_42,274,190,44,17,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[268, 184, 55, 23]","[282, 194, 28, 9]"
+pii_42,378,67,112,37,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[322, 50, 200, 50]","[386, 73, 96, 25]"
+pii_42,470,92,45,11,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[476, 80, 46, 20]","[478, 96, 29, 3]"
+pii_43,285,313,36,42,face,0.892628292153136,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_43,310,251,33,37,face,0.8870217166494312,router_union,['v3_ellipse_eyes_lower_feature'],,
+pii_43,425,102,27,31,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_43,155,263,61,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[134, 249, 96, 38]","[163, 267, 45, 12]"
+pii_43,250,223,60,13,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[253, 216, 54, 17]","[258, 227, 44, 5]"
+pii_43,255,243,53,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[240, 232, 82, 33]","[263, 247, 37, 12]"
+pii_43,424,131,31,11,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[414, 114, 93, 51]","[432, 135, 15, 3]"
+pii_43,436,138,21,11,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[414, 114, 93, 51]","[444, 142, 5, 3]"
+pii_45,281,301,34,38,face,0.8921835038363171,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_45,519,311,12,13,face,0.8475711332048689,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_45,151,171,24,28,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_45,538,106,33,38,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_45,556,116,15,18,face,0.8192657534246576,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_45,283,267,64,22,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[262, 250, 101, 43]","[291, 271, 48, 14]"
+pii_45,445,293,54,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[419, 273, 74, 49]","[453, 297, 38, 16]"
+pii_45,469,299,24,12,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[456, 299, 38, 11]","[477, 303, 8, 4]"
+pii_47,332,329,11,14,face,0.8270216007232667,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_47,115,321,79,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[82, 297, 136, 56]","[123, 325, 63, 16]"
+pii_47,273,323,73,26,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[240, 299, 137, 57]","[281, 327, 57, 18]"
+pii_47,280,330,32,10,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[284, 330, 48, 12]","[288, 334, 16, 2]"
+pii_47,300,335,21,10,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[286, 330, 45, 12]","[308, 339, 5, 2]"
+pii_50,114,176,35,43,face,0.8946328437917223,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_50,160,336,19,23,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_50,364,324,79,26,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[330, 299, 140, 59]","[372, 328, 63, 18]"
+pii_50,386,195,50,17,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[379, 189, 53, 22]","[394, 199, 34, 9]"
+pii_50,467,267,59,22,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[446, 250, 100, 42]","[475, 271, 43, 14]"
+pii_51,599,276,30,37,face,0.8929927838966958,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_51,216,229,33,10,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[212, 204, 70, 32]","[224, 233, 17, 2]"
+pii_51,224,214,53,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[212, 204, 70, 32]","[232, 218, 37, 12]"
+pii_51,432,297,70,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[404, 276, 121, 51]","[440, 301, 54, 16]"
+pii_51,460,303,21,11,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[442, 304, 43, 11]","[468, 307, 5, 3]"
+pii_53,393,174,30,33,face,0.8891839378238342,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_53,431,152,11,13,face,0.8886585092544557,v4_local_face_pattern,['v4_local_face_pattern'],,
+pii_53,588,85,30,36,face,0.8788952860741274,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_53,491,189,41,46,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_53,259,241,52,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[243, 229, 84, 36]","[267, 245, 36, 12]"
+pii_53,422,317,80,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[390, 293, 132, 55]","[430, 321, 64, 16]"
+pii_54,591,227,29,34,face,0.8959954751131222,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_54,570,87,24,31,face,0.8933596118859914,router_union,['v3_ellipse_eyes_lower_feature'],,
+pii_54,341,308,33,38,face,0.888425925925926,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_54,143,261,62,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[130, 245, 91, 40]","[151, 265, 46, 12]"
+pii_54,487,300,71,23,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[458, 278, 123, 51]","[495, 304, 55, 15]"
+pii_55,175,298,28,35,face,0.8933275185346707,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_55,416,201,27,32,face,0.8878020035356511,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_55,258,230,30,33,face,0.8870166959578207,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_55,275,289,69,22,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[250, 270, 114, 46]","[283, 293, 53, 14]"
+pii_55,290,203,53,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[282, 195, 59, 25]","[298, 207, 37, 12]"
+pii_58,137,78,28,32,face,0.8928348909657321,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_58,43,296,22,26,face,0.8797706422018349,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_58,170,198,18,21,face,0.82,local_ellipse_aligned_luminance_chroma,['local_ellipse_aligned_luminance_chroma'],,
+pii_58,186,251,52,20,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[168, 237, 89, 37]","[194, 255, 36, 12]"
+pii_58,391,222,47,19,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[379, 213, 69, 29]","[399, 226, 31, 11]"
+pii_59,486,128,34,39,face,0.8897574984045947,router_union,"['local_ellipse_aligned_luminance_chroma', 'v3_ellipse_eyes_lower_feature']",,
+pii_59,70,140,27,30,face,0.8816010329244675,router_union,['v3_ellipse_eyes_lower_feature'],,
+pii_59,219,275,63,25,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[197, 261, 104, 41]","[227, 279, 47, 17]"
+pii_59,297,239,49,24,plate,0.72,colour_body_neutral_panel_geometry,['colour_body_neutral_panel_geometry'],"[302, 232, 58, 32]","[305, 243, 33, 16]"

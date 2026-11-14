@@ -1,0 +1,10 @@
+{
+  "suite": "python -m pytest -o addopts= -q",
+  "passed": 64,
+  "skipped": 39,
+  "failed": 0,
+  "runtime_seconds": 34.0,
+  "source": "Actual pytest stdout and exit 0 observed during this task; not a model-quality metric",
+  "skip_reason": "Instructor ground truth not distributed",
+  "t07_tests": 17
+}

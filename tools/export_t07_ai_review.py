@@ -22,7 +22,7 @@ def main():
     review["reviewer_decision"] = review.item_id.map(lambda key: findings[key]["decision"])
     review["review_note"] = review.item_id.map(lambda key: findings[key]["note"])
     review["override_value"] = ""
-    review["reviewed_at"] = stamp
+    review["reviewed_at"] = observations["reviewed_at"]
     review["reviewer_kind"] = "ai"
     review["human_review"] = "false"
     folder = Path("out/ai_review")
@@ -41,7 +41,7 @@ def main():
                          "exported_path": row.evidence_path, "exported_sha256": sha256_file(row.evidence_path),
                          "decision": findings[row.item_id]["decision"], "tags": findings[row.item_id]["tags"]})
     summary = {"reviewer": observations["reviewer"], "reviewer_kind": "ai", "human_review": False,
-               "recorded_at": stamp, "n_reviewed": len(review), "decisions": dict(counts),
+               "recorded_at": stamp, "reviewed_at": observations["reviewed_at"], "n_reviewed": len(review), "decisions": dict(counts),
                "images_by_issue_tag": dict(tags), "recommended_decision": "REWORK",
                "method": observations["method"], "evidence": evidence, "quality_metrics": None,
                "scope": "Priority queue only; visual observations are not hidden-GT metrics",

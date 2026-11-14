@@ -1,6 +1,7 @@
 {
   "reviewer": "Codex (AI visual review)",
   "reviewer_kind": "ai",
+  "reviewed_at": "2026-11-14T17:37:48+07:00",
   "method": "Direct visual comparison of all 15 original JPG / current exported PNG pairs in the frozen priority queue. No hidden GT read; no detector tuning.",
   "findings": [
     {"image_id":"pii_57","decision":"reject","tags":["partial_plate_redaction"],"note":"Các vùng mặt nổi đã được che, đầu quay lưng giữ nguyên. Tuy nhiên vẫn thấy ký tự ở mép phải ngoài vùng che của biển số các xe, rõ nhất xe phía trước bên trái. Cần kiểm tra và che đủ chuỗi ký tự nhìn thấy."},

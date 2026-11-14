@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>T07 · Bàn duyệt ảnh</title><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body>
+<header class="topbar"><a href="/" class="brand"><svg viewBox="0 0 28 28" aria-hidden="true"><path d="M9 3H3v6M19 3h6v6M25 19v6h-6M9 25H3v-6M8 14h12M14 8v12"/></svg><span>T07 <span class="brand-sub">Bàn duyệt ảnh</span></span></a><span class="local">Local · G07</span><a class="button" href="/walkthrough">Tải ảnh · xem từng bước</a><a class="button export" href="/api/export" id="export">Xuất ảnh &amp; nhật ký</a></header>
+<div id="loadError" role="alert" hidden></div>
+<div class="workspace" id="workspace" hidden>
+  <aside class="sidebar" aria-label="Danh sách ảnh">
+    <div class="sidebar-head"><h2>Danh sách duyệt</h2><span id="listCount"></span></div>
+    <div class="filters"><label class="sr-only" for="search">Tìm ảnh</label><input id="search" type="search" placeholder="Tìm mã ảnh…"><label class="sr-only" for="scope">Phạm vi</label><select id="scope"><option value="queue">Queue rủi ro · 15 ảnh</option><option value="all">Toàn bộ · 60 ảnh</option><option value="dev">Dev · 36 ảnh</option><option value="eval">Eval · 24 ảnh</option></select><label class="sr-only" for="statusFilter">Trạng thái</label><select id="statusFilter"><option value="all">Mọi trạng thái web</option><option value="pending">Chưa lưu trên web</option><option value="approved">Đã duyệt / sửa</option><option value="reject">Cần sửa tiếp</option></select></div>
+    <nav id="imageList" class="image-list" aria-label="Chọn ảnh"></nav>
+    <div class="sidebar-foot"><div><strong id="progressLabel">0 / 15</strong><span>đã xử lý trong queue web</span></div><progress id="progress" max="15" value="0"></progress><small>Lượt web được lưu riêng với các lượt review trước.</small></div>
+  </aside>
+  <main>
+    <div class="image-heading"><div><h1 id="imageId"></h1><div class="image-meta"><span id="splitLabel" class="tag"></span><span id="dimensions"></span><span id="risk"></span></div></div><div class="paging"><button id="previous" title="Ảnh trước">Trước</button><button id="next" title="Ảnh tiếp">Tiếp</button></div></div>
+    <div class="view-tabs" role="group" aria-label="Phiên bản so sánh"><button data-mode="baseline">Baseline</button><button data-mode="poc">PoC tự động</button><button data-mode="edit" class="active">Bản đang duyệt</button></div>
+    <section class="comparison" aria-label="So sánh trước sau">
+      <figure><figcaption><strong>Ảnh gốc / vùng che</strong><label class="inline"><input type="checkbox" id="showBoxes" checked> Hiện khung</label></figcaption><div class="canvas-wrap"><canvas id="editor" width="640" height="360" tabindex="0" aria-label="Ảnh gốc. Kéo để vẽ vùng, chọn khung để sửa hoặc xóa. Dùng các ô tọa độ bên phải để thao tác bằng bàn phím."></canvas></div><p class="canvas-hint" id="canvasHint">Chọn khung để di chuyển. Kéo góc dưới phải để đổi kích thước.</p></figure>
+      <figure><figcaption><strong id="previewTitle">Bản đang duyệt</strong><span id="previewState">Đã tải</span></figcaption><div class="canvas-wrap"><img id="preview" width="640" height="360" alt="Ảnh sau khi che các vùng đã chọn"></div><p class="canvas-hint" id="sourceLabel"></p></figure>
+    </section>
+    <div class="tools" role="group" aria-label="Công cụ vùng che"><button id="selectTool" class="active">Chọn / di chuyển</button><button id="faceTool">Vẽ vùng mặt</button><button id="plateTool">Vẽ vùng biển số</button><span class="tool-divider"></span><button id="undo">Hoàn tác</button><button id="reset">Khôi phục bản đã lưu</button></div>
+    <section class="regions"><div class="section-heading"><h2>Vùng che <span id="boxCount"></span></h2><span>Mặt <i class="swatch face"></i> Biển số <i class="swatch plate"></i></span></div><div id="regionList" class="region-list" aria-label="Chọn vùng che"></div></section>
+    <details class="risk-details"><summary>Tín hiệu rủi ro và giới hạn đánh giá</summary><p id="riskReason"></p><p>Đây là dữ liệu synthetic. Số vùng che và lượt duyệt không phải điểm độ chính xác. Chưa có GT độc lập để xác nhận PII Miss Rate hoặc che thừa ≤30%.</p></details>
+  </main>
+  <aside class="inspector" aria-label="Quyết định review">
+    <section><h2>Hiệu chỉnh vùng</h2><p id="selectionHint" class="muted">Chọn một vùng trên ảnh hoặc trong danh sách.</p><fieldset id="boxFields" disabled><legend class="sr-only">Tọa độ vùng đang chọn</legend><label>Loại vùng<select id="boxType"><option value="face">Mặt</option><option value="plate">Biển số</option></select></label><div class="coordinates"><label>X<input id="boxX" type="number" min="0" step="1"></label><label>Y<input id="boxY" type="number" min="0" step="1"></label><label>Rộng<input id="boxW" type="number" min="1" step="1"></label><label>Cao<input id="boxH" type="number" min="1" step="1"></label></div><button id="deleteBox" class="danger" type="button">Xóa vùng này</button></fieldset><button id="addBox">Thêm vùng bằng tọa độ</button></section>
+    <section class="review-form"><h2>Quyết định của bạn</h2><button id="useProposal" hidden>Xem bản sửa đề xuất</button><small id="proposalHint" hidden>Bản đề xuất chưa được duyệt. Xem ảnh rồi chọn quyết định và bấm Lưu.</small><label>Reviewer<input id="reviewer" autocomplete="name" placeholder="Nhập tên người duyệt"></label><label>Quyết định<select id="decision"><option value="">Chọn quyết định…</option><option value="approve">Duyệt kết quả</option><option value="edit">Đã sửa và duyệt</option><option value="reject">Cần sửa tiếp</option><option value="escalate">Chuyển xử lý</option><option value="skip">Bỏ qua lượt này</option></select></label><label>Ghi chú<textarea id="note" rows="3" placeholder="Vùng bỏ sót, lý do sửa hoặc cần xử lý…"></textarea></label><div class="save-status" id="saveStatus" role="status" aria-live="polite">Chưa có thay đổi</div><button id="save" class="primary">Lưu quyết định</button><button id="saveNext">Lưu &amp; ảnh tiếp</button><small>Chỉ ghi reviewer và quyết định khi bạn bấm Lưu.</small></section>
+    <section class="session-info"><div class="gate-line"><h2>Trạng thái phiên</h2><span id="gate" class="tag"></span></div><p id="gateReason"></p><p>Lưu tại <code>out/web_review</code>. Bản gốc, baseline và PoC được giữ để đối chiếu.</p><p id="lastReview"></p></section>
+  </aside>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+</body></html>

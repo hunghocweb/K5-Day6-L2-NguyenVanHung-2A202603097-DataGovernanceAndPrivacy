@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-15",
+  "suite": "python -m pytest -q -o addopts=",
+  "passed": 71,
+  "skipped": 39,
+  "failed": 0,
+  "runtime_seconds": 76.43,
+  "web_tests": 7,
+  "skip_reason": "Instructor ground truth not distributed",
+  "browser_smoke": {
+    "command": "python -m tools.smoke_t07_web",
+    "exit_code": 0,
+    "desktop_viewport_width": 1664,
+    "mobile_layout_width": 390,
+    "checks": ["layout-no-overflow", "reviewer-required", "baseline-image", "live-blur-preview", "draw-move-resize-delete", "add-coordinate-undo", "save-review", "persisted-audit-progress", "split-filters"],
+    "screenshots": ["out/t07_web_qa/desktop.png", "out/t07_web_qa/mobile.png"],
+    "note": "Chrome headless with JavaScript-dispatched pointer events in an isolated QA session; not manual human review or a real touch-device test"
+  },
+  "quality_metrics": null
+}

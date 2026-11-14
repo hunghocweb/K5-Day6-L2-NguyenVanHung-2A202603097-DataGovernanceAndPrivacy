@@ -1,0 +1,49 @@
+{
+  "pages": 5,
+  "pdf": "demo\\T07_G07_slides.pdf",
+  "slides": [
+    {
+      "slide": 1,
+      "size": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 211
+    },
+    {
+      "slide": 2,
+      "size": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 539
+    },
+    {
+      "slide": 3,
+      "size": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 509
+    },
+    {
+      "slide": 4,
+      "size": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 286
+    },
+    {
+      "slide": 5,
+      "size": [
+        960.0,
+        540.0
+      ],
+      "text_chars": 589
+    }
+  ],
+  "renderer": "PyMuPDF",
+  "source": "tools.build_t07_slides",
+  "quality_metrics": null
+}

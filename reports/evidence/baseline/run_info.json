@@ -1,0 +1,32 @@
+{
+  "track": "t07",
+  "run_name": "baseline",
+  "status": 0,
+  "seed": 42,
+  "offline": true,
+  "input": "fixtures\\t07_redaction",
+  "output": "out\\baseline",
+  "pipeline": "src.t07_baseline",
+  "config_hash": "a680e906ea2d",
+  "git_sha": "8f1e0db",
+  "runtime_seconds": 47.9481,
+  "stats": {
+    "n_items": 60,
+    "mode": "baseline",
+    "model_hashes": {
+      "face": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+      "plate": "c3c1026ca7d0585dd88084d68182dd897113712fa734ae1557ca70174440c076"
+    },
+    "n_regions": 62
+  },
+  "machine": {
+    "python": "3.13.17",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD"
+  },
+  "output_check": {
+    "pred_file": "out\\baseline\\redactions.csv",
+    "exists": true,
+    "missing_columns": []
+  }
+}

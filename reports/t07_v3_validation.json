@@ -1,0 +1,66 @@
+{
+  "run_info": {
+    "track": "t07",
+    "run_name": "poc",
+    "status": 0,
+    "seed": 42,
+    "offline": true,
+    "input": "fixtures\\t07_redaction",
+    "output": "out\\poc_v3_dev",
+    "pipeline": "src.pipeline",
+    "config_hash": "55cd9c0174d3",
+    "git_sha": "0cd85c3",
+    "runtime_seconds": 36.8105,
+    "stats": {
+      "n_items": 36,
+      "mode": "poc",
+      "model_hashes": {
+        "face": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+        "plate": "c3c1026ca7d0585dd88084d68182dd897113712fa734ae1557ca70174440c076"
+      },
+      "queue_size": 15,
+      "n_completed": 0,
+      "n_pending": 15,
+      "n_changed_images": 0,
+      "n_correction_requests": 0,
+      "independent_quality_validation": false,
+      "quality_claim": "Human queue completion is not a full-dataset privacy guarantee",
+      "n_regions": 159
+    },
+    "machine": {
+      "python": "3.13.17",
+      "platform": "Windows-11-10.0.22631-SP0",
+      "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD"
+    },
+    "output_check": {
+      "pred_file": "out\\poc_v3_dev\\redactions.csv",
+      "exists": true,
+      "missing_columns": []
+    }
+  },
+  "detections": {
+    "n_images": 36,
+    "n_regions": 159,
+    "split_counts": {
+      "dev": 36
+    },
+    "detections_by_source": [
+      {
+        "type": "face",
+        "source": "v3_ellipse_eyes_lower_feature",
+        "n_regions": 86
+      },
+      {
+        "type": "plate",
+        "source": "v3_white_substrate_bidirectional_ink",
+        "n_regions": 73
+      }
+    ],
+    "quality_metrics": null,
+    "ground_truth_read": false
+  },
+  "functional_tests": "tests/test_t07_rules_v3.py",
+  "quality_metrics": null,
+  "default_frozen_poc_changed": false,
+  "known_limits": "See docs/T07_SYNTHETIC_V3.md; no independent hidden-eval claim."
+}

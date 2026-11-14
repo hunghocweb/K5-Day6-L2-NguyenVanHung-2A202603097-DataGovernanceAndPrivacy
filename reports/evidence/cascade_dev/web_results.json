@@ -1,0 +1,489 @@
+{
+  "desktop": {
+    "ok": true,
+    "tests": [
+      "file-selection-enables-run",
+      "real-worker-completed",
+      "six-stages-available",
+      "stage-1",
+      "stage-2",
+      "stage-3",
+      "stage-4",
+      "stage-5",
+      "stage-6",
+      "download-zip",
+      "no-horizontal-overflow",
+      "one-automatic-flow",
+      "no-calibration-single-user-padding",
+      "native-padding-reported-honestly",
+      "content-route-shown",
+      "padding-stage",
+      "controls-match-job-padding"
+    ],
+    "job": "9fad03b94fee4d538b119e9924298814",
+    "report": {
+      "job": "9fad03b94fee4d538b119e9924298814",
+      "state": "complete",
+      "stage": 6,
+      "message": "Hoàn tất xử lý tự động; xem lại ảnh kết quả.",
+      "started": 1794797986.5163622,
+      "mode": "auto",
+      "padding": 0,
+      "original_size": [
+        640,
+        360
+      ],
+      "working_size": [
+        640,
+        360
+      ],
+      "n_views": 0,
+      "raw_count": 10,
+      "merged_count": 7,
+      "final_count": 7,
+      "n_face": 5,
+      "n_plate": 2,
+      "seconds": 7.825,
+      "boxes": [
+        {
+          "x": 526,
+          "y": 206,
+          "w": 35,
+          "h": 40,
+          "type": "face",
+          "confidence": 0.8964953271028038,
+          "source": "router_union",
+          "merged_sources": [
+            "local_ellipse_aligned_luminance_chroma",
+            "v3_ellipse_eyes_lower_feature"
+          ]
+        },
+        {
+          "x": 116,
+          "y": 126,
+          "w": 35,
+          "h": 42,
+          "type": "face",
+          "confidence": 0.8951002865329513,
+          "source": "router_union",
+          "merged_sources": [
+            "local_ellipse_aligned_luminance_chroma",
+            "v3_ellipse_eyes_lower_feature"
+          ]
+        },
+        {
+          "x": 455,
+          "y": 241,
+          "w": 41,
+          "h": 48,
+          "type": "face",
+          "confidence": 0.8910757946210269,
+          "source": "router_union",
+          "merged_sources": [
+            "v3_ellipse_eyes_lower_feature"
+          ]
+        },
+        {
+          "x": 502,
+          "y": 295,
+          "w": 37,
+          "h": 43,
+          "type": "face",
+          "confidence": 0.8886733902249806,
+          "source": "router_union",
+          "merged_sources": [
+            "local_ellipse_aligned_luminance_chroma",
+            "v3_ellipse_eyes_lower_feature"
+          ]
+        },
+        {
+          "x": 476,
+          "y": 256,
+          "w": 10,
+          "h": 11,
+          "type": "face",
+          "confidence": 0.8846938775510205,
+          "source": "v3_ellipse_eyes_lower_feature",
+          "merged_sources": [
+            "v3_ellipse_eyes_lower_feature"
+          ]
+        },
+        {
+          "x": 173,
+          "y": 277,
+          "w": 60,
+          "h": 23,
+          "type": "plate",
+          "confidence": 0.72,
+          "source": "colour_body_neutral_panel_geometry",
+          "body_xywh": [
+            152,
+            261,
+            105,
+            42
+          ],
+          "panel_xywh": [
+            181,
+            281,
+            44,
+            15
+          ],
+          "merged_sources": [
+            "colour_body_neutral_panel_geometry"
+          ]
+        },
+        {
+          "x": 319,
+          "y": 312,
+          "w": 70,
+          "h": 26,
+          "type": "plate",
+          "confidence": 0.72,
+          "source": "colour_body_neutral_panel_geometry",
+          "body_xywh": [
+            289,
+            292,
+            128,
+            51
+          ],
+          "panel_xywh": [
+            327,
+            316,
+            54,
+            18
+          ],
+          "merged_sources": [
+            "colour_body_neutral_panel_geometry"
+          ]
+        }
+      ],
+      "offline": true,
+      "quality_metrics": null,
+      "human_review": false,
+      "requires_human_review": true,
+      "routing": {
+        "route": "2d",
+        "reason": "high_flat_fraction",
+        "router_version": "flat-pixels-v1-experimental",
+        "features": {
+          "flat_fraction": 0.8242144097222223,
+          "quantized_unique_colors": 1616,
+          "quantized_color_occupancy": 0.04931640625,
+          "laplacian_variance": 2.9449825286865234,
+          "gray_std": 37.483970642089844,
+          "content_roi_xywh": [
+            0,
+            0,
+            640,
+            360
+          ],
+          "feature_shape_hw": [
+            360,
+            640
+          ],
+          "feature_scale": 1
+        },
+        "config": {
+          "flat_threshold": 0.6,
+          "uncertainty_margin": 0.08,
+          "flat_std": 2,
+          "patch_size": 5,
+          "black_level": 8,
+          "border_dark_fraction": 0.995,
+          "max_trim_fraction": 0.45,
+          "max_feature_side": 1024,
+          "calibration_reference": ""
+        },
+        "calibration_status": "uncalibrated"
+      },
+      "algorithm": "auto-cascade-1",
+      "review_reasons": [
+        "ambiguous_head"
+      ],
+      "cascade": {
+        "primary_executed": true,
+        "fallback_executed": false,
+        "selected": "ellipse_blur_2d",
+        "reason": "primary_supported_and_nonempty",
+        "gate": {
+          "suitable": true,
+          "reason": "flat_drawing_supported",
+          "palette_mass": 0.9142491319444443,
+          "edge_fraction": 0.013441840277777778,
+          "content_roi_xywh": [
+            0,
+            0,
+            640,
+            360
+          ],
+          "feature_shape_hw": [
+            360,
+            640
+          ],
+          "config": {
+            "analysis_side": 640,
+            "colour_step": 24,
+            "dominant_colours": 24,
+            "min_palette_mass": 0.88,
+            "max_edge_fraction": 0.04
+          },
+          "measured_accuracy": null,
+          "calibration_scope": "dev_fixture_and_development_upload_only"
+        },
+        "primary_count": 7
+      },
+      "selected_algorithm": "math2d-dev-1",
+      "padding_policy": "frozen_math2d_intrinsic_margins_plus_explicit_optional_user_padding",
+      "bbox_calibration_applied": false,
+      "detector_padding_applied": true,
+      "padding_applications": null,
+      "user_padding_applications": 1,
+      "stage_summary": "2D elip + xử lý mờ bản gốc · 5 mặt · 2 biển số · nới bổ sung 0%.",
+      "notice": "Bản 2D gốc giữ mức nới sẵn của thuật toán. Thanh trượt chỉ nới thêm vùng che. Kết quả tự động cần kiểm tra mặt/biển số còn lộ và vùng che nhầm; cổng chọn nhánh chưa được xác thực độc lập."
+    },
+    "width": 1664
+  },
+  "mobile": {
+    "ok": true,
+    "tests": [
+      "real-worker-completed",
+      "six-stages-available",
+      "stage-1",
+      "stage-2",
+      "stage-3",
+      "stage-4",
+      "stage-5",
+      "stage-6",
+      "download-zip",
+      "no-horizontal-overflow",
+      "one-automatic-flow",
+      "no-calibration-single-user-padding",
+      "native-padding-reported-honestly",
+      "content-route-shown",
+      "padding-stage",
+      "controls-match-job-padding"
+    ],
+    "job": "9fad03b94fee4d538b119e9924298814",
+    "report": {
+      "job": "9fad03b94fee4d538b119e9924298814",
+      "state": "complete",
+      "stage": 6,
+      "message": "Hoàn tất xử lý tự động; xem lại ảnh kết quả.",
+      "started": 1794797986.5163622,
+      "mode": "auto",
+      "padding": 0,
+      "original_size": [
+        640,
+        360
+      ],
+      "working_size": [
+        640,
+        360
+      ],
+      "n_views": 0,
+      "raw_count": 10,
+      "merged_count": 7,
+      "final_count": 7,
+      "n_face": 5,
+      "n_plate": 2,
+      "seconds": 7.825,
+      "boxes": [
+        {
+          "x": 526,
+          "y": 206,
+          "w": 35,
+          "h": 40,
+          "type": "face",
+          "confidence": 0.8964953271028038,
+          "source": "router_union",
+          "merged_sources": [
+            "local_ellipse_aligned_luminance_chroma",
+            "v3_ellipse_eyes_lower_feature"
+          ]
+        },
+        {
+          "x": 116,
+          "y": 126,
+          "w": 35,
+          "h": 42,
+          "type": "face",
+          "confidence": 0.8951002865329513,
+          "source": "router_union",
+          "merged_sources": [
+            "local_ellipse_aligned_luminance_chroma",
+            "v3_ellipse_eyes_lower_feature"
+          ]
+        },
+        {
+          "x": 455,
+          "y": 241,
+          "w": 41,
+          "h": 48,
+          "type": "face",
+          "confidence": 0.8910757946210269,
+          "source": "router_union",
+          "merged_sources": [
+            "v3_ellipse_eyes_lower_feature"
+          ]
+        },
+        {
+          "x": 502,
+          "y": 295,
+          "w": 37,
+          "h": 43,
+          "type": "face",
+          "confidence": 0.8886733902249806,
+          "source": "router_union",
+          "merged_sources": [
+            "local_ellipse_aligned_luminance_chroma",
+            "v3_ellipse_eyes_lower_feature"
+          ]
+        },
+        {
+          "x": 476,
+          "y": 256,
+          "w": 10,
+          "h": 11,
+          "type": "face",
+          "confidence": 0.8846938775510205,
+          "source": "v3_ellipse_eyes_lower_feature",
+          "merged_sources": [
+            "v3_ellipse_eyes_lower_feature"
+          ]
+        },
+        {
+          "x": 173,
+          "y": 277,
+          "w": 60,
+          "h": 23,
+          "type": "plate",
+          "confidence": 0.72,
+          "source": "colour_body_neutral_panel_geometry",
+          "body_xywh": [
+            152,
+            261,
+            105,
+            42
+          ],
+          "panel_xywh": [
+            181,
+            281,
+            44,
+            15
+          ],
+          "merged_sources": [
+            "colour_body_neutral_panel_geometry"
+          ]
+        },
+        {
+          "x": 319,
+          "y": 312,
+          "w": 70,
+          "h": 26,
+          "type": "plate",
+          "confidence": 0.72,
+          "source": "colour_body_neutral_panel_geometry",
+          "body_xywh": [
+            289,
+            292,
+            128,
+            51
+          ],
+          "panel_xywh": [
+            327,
+            316,
+            54,
+            18
+          ],
+          "merged_sources": [
+            "colour_body_neutral_panel_geometry"
+          ]
+        }
+      ],
+      "offline": true,
+      "quality_metrics": null,
+      "human_review": false,
+      "requires_human_review": true,
+      "routing": {
+        "route": "2d",
+        "reason": "high_flat_fraction",
+        "router_version": "flat-pixels-v1-experimental",
+        "features": {
+          "flat_fraction": 0.8242144097222223,
+          "quantized_unique_colors": 1616,
+          "quantized_color_occupancy": 0.04931640625,
+          "laplacian_variance": 2.9449825286865234,
+          "gray_std": 37.483970642089844,
+          "content_roi_xywh": [
+            0,
+            0,
+            640,
+            360
+          ],
+          "feature_shape_hw": [
+            360,
+            640
+          ],
+          "feature_scale": 1
+        },
+        "config": {
+          "flat_threshold": 0.6,
+          "uncertainty_margin": 0.08,
+          "flat_std": 2,
+          "patch_size": 5,
+          "black_level": 8,
+          "border_dark_fraction": 0.995,
+          "max_trim_fraction": 0.45,
+          "max_feature_side": 1024,
+          "calibration_reference": ""
+        },
+        "calibration_status": "uncalibrated"
+      },
+      "algorithm": "auto-cascade-1",
+      "review_reasons": [
+        "ambiguous_head"
+      ],
+      "cascade": {
+        "primary_executed": true,
+        "fallback_executed": false,
+        "selected": "ellipse_blur_2d",
+        "reason": "primary_supported_and_nonempty",
+        "gate": {
+          "suitable": true,
+          "reason": "flat_drawing_supported",
+          "palette_mass": 0.9142491319444443,
+          "edge_fraction": 0.013441840277777778,
+          "content_roi_xywh": [
+            0,
+            0,
+            640,
+            360
+          ],
+          "feature_shape_hw": [
+            360,
+            640
+          ],
+          "config": {
+            "analysis_side": 640,
+            "colour_step": 24,
+            "dominant_colours": 24,
+            "min_palette_mass": 0.88,
+            "max_edge_fraction": 0.04
+          },
+          "measured_accuracy": null,
+          "calibration_scope": "dev_fixture_and_development_upload_only"
+        },
+        "primary_count": 7
+      },
+      "selected_algorithm": "math2d-dev-1",
+      "padding_policy": "frozen_math2d_intrinsic_margins_plus_explicit_optional_user_padding",
+      "bbox_calibration_applied": false,
+      "detector_padding_applied": true,
+      "padding_applications": null,
+      "user_padding_applications": 1,
+      "stage_summary": "2D elip + xử lý mờ bản gốc · 5 mặt · 2 biển số · nới bổ sung 0%.",
+      "notice": "Bản 2D gốc giữ mức nới sẵn của thuật toán. Thanh trượt chỉ nới thêm vùng che. Kết quả tự động cần kiểm tra mặt/biển số còn lộ và vùng che nhầm; cổng chọn nhánh chưa được xác thực độc lập."
+    },
+    "width": 390
+  }
+}

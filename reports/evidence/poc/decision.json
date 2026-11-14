@@ -1,0 +1,14 @@
+{
+  "status": "HOLD",
+  "reason_code": "HUMAN_REVIEW_PENDING",
+  "reason": "15 queue items unresolved",
+  "owner": "Nguyễn Văn Hùng - owner/reviewer",
+  "scope": "t07",
+  "evidence": [
+    "out\\poc\\redactions.csv",
+    "out\\poc\\review_state.json"
+  ],
+  "metrics": {},
+  "ts": "2026-11-14T13:09:22+00:00",
+  "canonical": "HOLD"
+}

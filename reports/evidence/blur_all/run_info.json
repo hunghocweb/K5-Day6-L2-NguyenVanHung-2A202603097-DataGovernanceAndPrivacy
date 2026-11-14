@@ -1,0 +1,29 @@
+{
+  "track": "t07",
+  "run_name": "blur_all",
+  "status": 0,
+  "seed": 42,
+  "offline": true,
+  "input": "fixtures\\t07_redaction",
+  "output": "out\\blur_all",
+  "pipeline": "src.t07_blur_all",
+  "config_hash": "fcab39f9ce8d",
+  "git_sha": "8f1e0db",
+  "runtime_seconds": 12.7411,
+  "stats": {
+    "n_items": 60,
+    "mode": "blur_all",
+    "model_hashes": {},
+    "n_regions": 60
+  },
+  "machine": {
+    "python": "3.13.17",
+    "platform": "Windows-11-10.0.22631-SP0",
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD"
+  },
+  "output_check": {
+    "pred_file": "out\\blur_all\\redactions.csv",
+    "exists": true,
+    "missing_columns": []
+  }
+}

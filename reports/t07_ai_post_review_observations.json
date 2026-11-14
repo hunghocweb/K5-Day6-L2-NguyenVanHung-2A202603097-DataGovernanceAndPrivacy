@@ -1,6 +1,7 @@
 {
   "reviewer": "Codex (AI visual re-review)",
   "reviewer_kind": "ai",
+  "reviewed_at": "2026-11-14T19:57:04+07:00",
   "independent_validation": false,
   "scope": "Direct inspection of the 15 corrected PNG exports, checking the issues recorded in the first visual review. Not hidden GT or full-batch privacy certification.",
   "results": {

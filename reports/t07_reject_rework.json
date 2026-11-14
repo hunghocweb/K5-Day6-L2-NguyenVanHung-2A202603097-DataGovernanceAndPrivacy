@@ -1,0 +1,114 @@
+{
+  "scope": "exploratory_outside_B15",
+  "review_budget_unchanged": 15,
+  "proposals": {
+    "pii_02": {
+      "boxes": [
+        {
+          "x": 349,
+          "y": 103,
+          "w": 34,
+          "h": 40,
+          "type": "face"
+        },
+        {
+          "x": 207,
+          "y": 129,
+          "w": 25,
+          "h": 30,
+          "type": "face"
+        },
+        {
+          "x": 286,
+          "y": 261,
+          "w": 52,
+          "h": 16,
+          "type": "plate"
+        },
+        {
+          "x": 223,
+          "y": 182,
+          "w": 59,
+          "h": 12,
+          "type": "plate"
+        },
+        {
+          "x": 239,
+          "y": 183,
+          "w": 17,
+          "h": 9,
+          "type": "plate"
+        }
+      ],
+      "note": "B?n v3 sinh t? ??ng: hai m?t c? n?t m?t/mi?ng, hai bi?n s? v? ch? tr?n n?n; n?i qua v?ng ng??i che khu?t.",
+      "source_image_sha256": "5506640159a51cd103183da398ba67fc0e5f2425013fe07699cda029b9058a61",
+      "review_revision": "3b33bf3d7dd52f5a29dc6d0c2c1449136530c16b2f47eb8e1112bd8ba0b20952",
+      "previous_decision": "reject",
+      "human_review": false,
+      "actor": "Codex",
+      "reviewer_kind": "ai",
+      "state": "correction_proposed_pending_human_review",
+      "attempt": 3,
+      "previous_attempt_feedback": "User requested further correction in chat; no approval.",
+      "source_algorithm": "src.t07_rules_v3, frozen dev run, padding0.01"
+    },
+    "pii_03": {
+      "boxes": [
+        {
+          "x": 98,
+          "y": 129,
+          "w": 18,
+          "h": 24,
+          "type": "face"
+        },
+        {
+          "x": 164,
+          "y": 208,
+          "w": 15,
+          "h": 19,
+          "type": "face"
+        },
+        {
+          "x": 448,
+          "y": 200,
+          "w": 23,
+          "h": 27,
+          "type": "face"
+        },
+        {
+          "x": 587,
+          "y": 272,
+          "w": 15,
+          "h": 17,
+          "type": "face"
+        },
+        {
+          "x": 250,
+          "y": 204,
+          "w": 43,
+          "h": 13,
+          "type": "plate"
+        },
+        {
+          "x": 369,
+          "y": 195,
+          "w": 43,
+          "h": 13,
+          "type": "plate"
+        }
+      ],
+      "note": "B? v?ng che th?n xe v? ??u/ng??i quay l?ng; che b?n m?t c? m?t-mi?ng; m? r?ng hai bi?n s? ?? k? t?. B?n 2: ki?m tra ?u?i ch? b?ng crop ph?ng to, thu g?n khung tr?nh che l?n.",
+      "source_image_sha256": "19ecbe70d4c0820c243b5a4ef2f806cb9cba6ea2cd7593fc56948e13a12df771",
+      "review_revision": "8f774442aceafc970e47ab732a0d1c53705a3a4f921513e32692f86f2b77b4fa",
+      "previous_decision": "reject",
+      "human_review": false,
+      "actor": "Codex",
+      "reviewer_kind": "ai",
+      "state": "correction_proposed_pending_human_review",
+      "attempt": 2,
+      "previous_attempt_feedback": "User requested further correction in chat; no approval."
+    }
+  },
+  "updated_at": "2026-11-15T12:11:57.213469+07:00",
+  "human_approval": false
+}

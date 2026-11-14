@@ -1,0 +1,955 @@
+{
+  "created_at": "2026-11-15T10:08:58.895127+00:00",
+  "experiment": "internal_user_reviewed_reference",
+  "seed": 42,
+  "official_gt": false,
+  "independent_holdout": false,
+  "metrics": {
+    "dev": {
+      "baseline": {
+        "n_images": 9,
+        "n_reference_regions": 49,
+        "n_predictions": 9,
+        "missed_regions": 49,
+        "pii_miss_rate": 1.0,
+        "region_success_rate": 0.0,
+        "over_redaction_rate": 0.0,
+        "over_outside_pixels": 0,
+        "redacted_pixels": 5027,
+        "guardrail_pass": true,
+        "all_regions_covered_images": 0,
+        "bootstrap_95ci_miss": [
+          1.0,
+          1.0
+        ],
+        "bootstrap_95ci_over": [
+          0.0,
+          0.0
+        ],
+        "by_type": {
+          "face": {
+            "n_regions": 26,
+            "missed": 26,
+            "miss_rate": 1.0
+          },
+          "plate": {
+            "n_regions": 23,
+            "missed": 23,
+            "miss_rate": 1.0
+          }
+        },
+        "per_image": [
+          {
+            "image_id": "pii_10",
+            "n_gt": 5,
+            "missed": 5,
+            "mean_coverage": 0.3850734074724417,
+            "outside_pixels": 0,
+            "redacted_pixels": 1906
+          },
+          {
+            "image_id": "pii_24",
+            "n_gt": 7,
+            "missed": 7,
+            "mean_coverage": 0.13978112984324165,
+            "outside_pixels": 0,
+            "redacted_pixels": 1317
+          },
+          {
+            "image_id": "pii_15",
+            "n_gt": 5,
+            "missed": 5,
+            "mean_coverage": 0.0,
+            "outside_pixels": 0,
+            "redacted_pixels": 0
+          },
+          {
+            "image_id": "pii_40",
+            "n_gt": 6,
+            "missed": 6,
+            "mean_coverage": 0.0,
+            "outside_pixels": 0,
+            "redacted_pixels": 0
+          },
+          {
+            "image_id": "pii_08",
+            "n_gt": 6,
+            "missed": 6,
+            "mean_coverage": 0.09160539215686275,
+            "outside_pixels": 0,
+            "redacted_pixels": 598
+          },
+          {
+            "image_id": "pii_38",
+            "n_gt": 6,
+            "missed": 6,
+            "mean_coverage": 0.0,
+            "outside_pixels": 0,
+            "redacted_pixels": 0
+          },
+          {
+            "image_id": "pii_59",
+            "n_gt": 4,
+            "missed": 4,
+            "mean_coverage": 0.08271236959761549,
+            "outside_pixels": 0,
+            "redacted_pixels": 444
+          },
+          {
+            "image_id": "pii_12",
+            "n_gt": 5,
+            "missed": 5,
+            "mean_coverage": 0.08421052631578947,
+            "outside_pixels": 0,
+            "redacted_pixels": 528
+          },
+          {
+            "image_id": "pii_19",
+            "n_gt": 5,
+            "missed": 5,
+            "mean_coverage": 0.06256684491978609,
+            "outside_pixels": 0,
+            "redacted_pixels": 234
+          }
+        ]
+      },
+      "poc_v1": {
+        "n_images": 9,
+        "n_reference_regions": 49,
+        "n_predictions": 21,
+        "missed_regions": 45,
+        "pii_miss_rate": 0.9183673469387755,
+        "region_success_rate": 0.08163265306122447,
+        "over_redaction_rate": 0.26290485829959515,
+        "over_outside_pixels": 4156,
+        "redacted_pixels": 15808,
+        "guardrail_pass": true,
+        "all_regions_covered_images": 0,
+        "bootstrap_95ci_miss": [
+          0.795812074829932,
+          1.0
+        ],
+        "bootstrap_95ci_over": [
+          0.035350479366473196,
+          0.6716614499976584
+        ],
+        "by_type": {
+          "face": {
+            "n_regions": 26,
+            "missed": 22,
+            "miss_rate": 0.8461538461538461
+          },
+          "plate": {
+            "n_regions": 23,
+            "missed": 23,
+            "miss_rate": 1.0
+          }
+        },
+        "per_image": [
+          {
+            "image_id": "pii_10",
+            "n_gt": 5,
+            "missed": 3,
+            "mean_coverage": 0.8837064676616915,
+            "outside_pixels": 0,
+            "redacted_pixels": 4031
+          },
+          {
+            "image_id": "pii_24",
+            "n_gt": 7,
+            "missed": 7,
+            "mean_coverage": 0.17265108942127577,
+            "outside_pixels": 0,
+            "redacted_pixels": 1627
+          },
+          {
+            "image_id": "pii_15",
+            "n_gt": 5,
+            "missed": 5,
+            "mean_coverage": 0.1575,
+            "outside_pixels": 504,
+            "redacted_pixels": 882
+          },
+          {
+            "image_id": "pii_40",
+            "n_gt": 6,
+            "missed": 6,
+            "mean_coverage": 0.0,
+            "outside_pixels": 1875,
+            "redacted_pixels": 1875
+          },
+          {
+            "image_id": "pii_08",
+            "n_gt": 6,
+            "missed": 4,
+            "mean_coverage": 0.5761009170935641,
+            "outside_pixels": 0,
+            "redacted_pixels": 3542
+          },
+          {
+            "image_id": "pii_38",
+            "n_gt": 6,
+            "missed": 6,
+            "mean_coverage": 0.09895833333333333,
+            "outside_pixels": 1469,
+            "redacted_pixels": 1773
+          },
+          {
+            "image_id": "pii_59",
+            "n_gt": 4,
+            "missed": 4,
+            "mean_coverage": 0.10692995529061103,
+            "outside_pixels": 0,
+            "redacted_pixels": 574
+          },
+          {
+            "image_id": "pii_12",
+            "n_gt": 5,
+            "missed": 5,
+            "mean_coverage": 0.19462642620537357,
+            "outside_pixels": 308,
+            "redacted_pixels": 1196
+          },
+          {
+            "image_id": "pii_19",
+            "n_gt": 5,
+            "missed": 5,
+            "mean_coverage": 0.08235294117647059,
+            "outside_pixels": 0,
+            "redacted_pixels": 308
+          }
+        ]
+      },
+      "poc_v3": {
+        "n_images": 9,
+        "n_reference_regions": 49,
+        "n_predictions": 33,
+        "missed_regions": 25,
+        "pii_miss_rate": 0.5102040816326531,
+        "region_success_rate": 0.4897959183673469,
+        "over_redaction_rate": 0.35223566015958246,
+        "over_outside_pixels": 14038,
+        "redacted_pixels": 39854,
+        "guardrail_pass": false,
+        "all_regions_covered_images": 2,
+        "bootstrap_95ci_miss": [
+          0.2888095238095238,
+          0.7084027777777777
+        ],
+        "bootstrap_95ci_over": [
+          0.19965271509471524,
+          0.47059797797992997
+        ],
+        "by_type": {
+          "face": {
+            "n_regions": 26,
+            "missed": 10,
+            "miss_rate": 0.38461538461538464
+          },
+          "plate": {
+            "n_regions": 23,
+            "missed": 15,
+            "miss_rate": 0.6521739130434783
+          }
+        },
+        "per_image": [
+          {
+            "image_id": "pii_10",
+            "n_gt": 5,
+            "missed": 0,
+            "mean_coverage": 0.991044776119403,
+            "outside_pixels": 4668,
+            "redacted_pixels": 9204
+          },
+          {
+            "image_id": "pii_24",
+            "n_gt": 7,
+            "missed": 5,
+            "mean_coverage": 0.29723502304147464,
+            "outside_pixels": 755,
+            "redacted_pixels": 3247
+          },
+          {
+            "image_id": "pii_15",
+            "n_gt": 5,
+            "missed": 4,
+            "mean_coverage": 0.2,
+            "outside_pixels": 123,
+            "redacted_pixels": 1628
+          },
+          {
+            "image_id": "pii_40",
+            "n_gt": 6,
+            "missed": 2,
+            "mean_coverage": 0.6552631578947369,
+            "outside_pixels": 1071,
+            "redacted_pixels": 5874
+          },
+          {
+            "image_id": "pii_08",
+            "n_gt": 6,
+            "missed": 0,
+            "mean_coverage": 0.9914529914529915,
+            "outside_pixels": 3795,
+            "redacted_pixels": 9131
+          },
+          {
+            "image_id": "pii_38",
+            "n_gt": 6,
+            "missed": 3,
+            "mean_coverage": 0.6291989664082688,
+            "outside_pixels": 659,
+            "redacted_pixels": 4916
+          },
+          {
+            "image_id": "pii_59",
+            "n_gt": 4,
+            "missed": 3,
+            "mean_coverage": 0.25,
+            "outside_pixels": 336,
+            "redacted_pixels": 1254
+          },
+          {
+            "image_id": "pii_12",
+            "n_gt": 5,
+            "missed": 4,
+            "mean_coverage": 0.3463746779536253,
+            "outside_pixels": 2631,
+            "redacted_pixels": 4212
+          },
+          {
+            "image_id": "pii_19",
+            "n_gt": 5,
+            "missed": 4,
+            "mean_coverage": 0.19488095238095238,
+            "outside_pixels": 0,
+            "redacted_pixels": 388
+          }
+        ]
+      },
+      "poc_v3_router": {
+        "n_images": 9,
+        "n_reference_regions": 49,
+        "n_predictions": 33,
+        "missed_regions": 25,
+        "pii_miss_rate": 0.5102040816326531,
+        "region_success_rate": 0.4897959183673469,
+        "over_redaction_rate": 0.35223566015958246,
+        "over_outside_pixels": 14038,
+        "redacted_pixels": 39854,
+        "guardrail_pass": false,
+        "all_regions_covered_images": 2,
+        "bootstrap_95ci_miss": [
+          0.2888095238095238,
+          0.7084027777777777
+        ],
+        "bootstrap_95ci_over": [
+          0.19965271509471524,
+          0.47059797797992997
+        ],
+        "by_type": {
+          "face": {
+            "n_regions": 26,
+            "missed": 10,
+            "miss_rate": 0.38461538461538464
+          },
+          "plate": {
+            "n_regions": 23,
+            "missed": 15,
+            "miss_rate": 0.6521739130434783
+          }
+        },
+        "per_image": [
+          {
+            "image_id": "pii_10",
+            "n_gt": 5,
+            "missed": 0,
+            "mean_coverage": 0.991044776119403,
+            "outside_pixels": 4668,
+            "redacted_pixels": 9204
+          },
+          {
+            "image_id": "pii_24",
+            "n_gt": 7,
+            "missed": 5,
+            "mean_coverage": 0.29723502304147464,
+            "outside_pixels": 755,
+            "redacted_pixels": 3247
+          },
+          {
+            "image_id": "pii_15",
+            "n_gt": 5,
+            "missed": 4,
+            "mean_coverage": 0.2,
+            "outside_pixels": 123,
+            "redacted_pixels": 1628
+          },
+          {
+            "image_id": "pii_40",
+            "n_gt": 6,
+            "missed": 2,
+            "mean_coverage": 0.6552631578947369,
+            "outside_pixels": 1071,
+            "redacted_pixels": 5874
+          },
+          {
+            "image_id": "pii_08",
+            "n_gt": 6,
+            "missed": 0,
+            "mean_coverage": 0.9914529914529915,
+            "outside_pixels": 3795,
+            "redacted_pixels": 9131
+          },
+          {
+            "image_id": "pii_38",
+            "n_gt": 6,
+            "missed": 3,
+            "mean_coverage": 0.6291989664082688,
+            "outside_pixels": 659,
+            "redacted_pixels": 4916
+          },
+          {
+            "image_id": "pii_59",
+            "n_gt": 4,
+            "missed": 3,
+            "mean_coverage": 0.25,
+            "outside_pixels": 336,
+            "redacted_pixels": 1254
+          },
+          {
+            "image_id": "pii_12",
+            "n_gt": 5,
+            "missed": 4,
+            "mean_coverage": 0.3463746779536253,
+            "outside_pixels": 2631,
+            "redacted_pixels": 4212
+          },
+          {
+            "image_id": "pii_19",
+            "n_gt": 5,
+            "missed": 4,
+            "mean_coverage": 0.19488095238095238,
+            "outside_pixels": 0,
+            "redacted_pixels": 388
+          }
+        ]
+      }
+    },
+    "eval": {
+      "baseline": {
+        "n_images": 6,
+        "n_reference_regions": 31,
+        "n_predictions": 15,
+        "missed_regions": 31,
+        "pii_miss_rate": 1.0,
+        "region_success_rate": 0.0,
+        "over_redaction_rate": 0.0,
+        "over_outside_pixels": 0,
+        "redacted_pixels": 5624,
+        "guardrail_pass": true,
+        "all_regions_covered_images": 0,
+        "bootstrap_95ci_miss": [
+          1.0,
+          1.0
+        ],
+        "bootstrap_95ci_over": [
+          0.0,
+          0.0
+        ],
+        "by_type": {
+          "face": {
+            "n_regions": 16,
+            "missed": 16,
+            "miss_rate": 1.0
+          },
+          "plate": {
+            "n_regions": 15,
+            "missed": 15,
+            "miss_rate": 1.0
+          }
+        },
+        "per_image": [
+          {
+            "image_id": "pii_57",
+            "n_gt": 6,
+            "missed": 6,
+            "mean_coverage": 0.2824968079568823,
+            "outside_pixels": 0,
+            "redacted_pixels": 842
+          },
+          {
+            "image_id": "pii_48",
+            "n_gt": 6,
+            "missed": 6,
+            "mean_coverage": 0.3079088253177322,
+            "outside_pixels": 0,
+            "redacted_pixels": 1089
+          },
+          {
+            "image_id": "pii_52",
+            "n_gt": 4,
+            "missed": 4,
+            "mean_coverage": 0.1527777777777778,
+            "outside_pixels": 0,
+            "redacted_pixels": 429
+          },
+          {
+            "image_id": "pii_33",
+            "n_gt": 5,
+            "missed": 5,
+            "mean_coverage": 0.3563969042850431,
+            "outside_pixels": 0,
+            "redacted_pixels": 1168
+          },
+          {
+            "image_id": "pii_56",
+            "n_gt": 6,
+            "missed": 6,
+            "mean_coverage": 0.27802796768314014,
+            "outside_pixels": 0,
+            "redacted_pixels": 950
+          },
+          {
+            "image_id": "pii_01",
+            "n_gt": 4,
+            "missed": 4,
+            "mean_coverage": 0.3098958333333333,
+            "outside_pixels": 0,
+            "redacted_pixels": 1146
+          }
+        ]
+      },
+      "poc_v1": {
+        "n_images": 6,
+        "n_reference_regions": 31,
+        "n_predictions": 31,
+        "missed_regions": 15,
+        "pii_miss_rate": 0.4838709677419355,
+        "region_success_rate": 0.5161290322580645,
+        "over_redaction_rate": 0.0,
+        "over_outside_pixels": 0,
+        "redacted_pixels": 19558,
+        "guardrail_pass": true,
+        "all_regions_covered_images": 0,
+        "bootstrap_95ci_miss": [
+          0.4,
+          0.5454545454545454
+        ],
+        "bootstrap_95ci_over": [
+          0.0,
+          0.0
+        ],
+        "by_type": {
+          "face": {
+            "n_regions": 16,
+            "missed": 0,
+            "miss_rate": 0.0
+          },
+          "plate": {
+            "n_regions": 15,
+            "missed": 15,
+            "miss_rate": 1.0
+          }
+        },
+        "per_image": [
+          {
+            "image_id": "pii_57",
+            "n_gt": 6,
+            "missed": 3,
+            "mean_coverage": 0.8765904777910828,
+            "outside_pixels": 0,
+            "redacted_pixels": 2643
+          },
+          {
+            "image_id": "pii_48",
+            "n_gt": 6,
+            "missed": 3,
+            "mean_coverage": 0.8968582587003638,
+            "outside_pixels": 0,
+            "redacted_pixels": 3533
+          },
+          {
+            "image_id": "pii_52",
+            "n_gt": 4,
+            "missed": 1,
+            "mean_coverage": 0.9490740740740741,
+            "outside_pixels": 0,
+            "redacted_pixels": 3363
+          },
+          {
+            "image_id": "pii_33",
+            "n_gt": 5,
+            "missed": 3,
+            "mean_coverage": 0.865137530422005,
+            "outside_pixels": 0,
+            "redacted_pixels": 2491
+          },
+          {
+            "image_id": "pii_56",
+            "n_gt": 6,
+            "missed": 3,
+            "mean_coverage": 0.8719229574401988,
+            "outside_pixels": 0,
+            "redacted_pixels": 4396
+          },
+          {
+            "image_id": "pii_01",
+            "n_gt": 4,
+            "missed": 2,
+            "mean_coverage": 0.8844975490196079,
+            "outside_pixels": 0,
+            "redacted_pixels": 3132
+          }
+        ]
+      },
+      "poc_v3": {
+        "n_images": 6,
+        "n_reference_regions": 31,
+        "n_predictions": 30,
+        "missed_regions": 3,
+        "pii_miss_rate": 0.0967741935483871,
+        "region_success_rate": 0.9032258064516129,
+        "over_redaction_rate": 0.47082151486500684,
+        "over_outside_pixels": 17927,
+        "redacted_pixels": 38076,
+        "guardrail_pass": false,
+        "all_regions_covered_images": 3,
+        "bootstrap_95ci_miss": [
+          0.029411764705882353,
+          0.17857142857142858
+        ],
+        "bootstrap_95ci_over": [
+          0.3479935275080906,
+          0.5504656124441352
+        ],
+        "by_type": {
+          "face": {
+            "n_regions": 16,
+            "missed": 1,
+            "miss_rate": 0.0625
+          },
+          "plate": {
+            "n_regions": 15,
+            "missed": 2,
+            "miss_rate": 0.13333333333333333
+          }
+        },
+        "per_image": [
+          {
+            "image_id": "pii_57",
+            "n_gt": 6,
+            "missed": 0,
+            "mean_coverage": 1.0,
+            "outside_pixels": 4127,
+            "redacted_pixels": 7136
+          },
+          {
+            "image_id": "pii_48",
+            "n_gt": 6,
+            "missed": 0,
+            "mean_coverage": 0.9941520467836257,
+            "outside_pixels": 4358,
+            "redacted_pixels": 8209
+          },
+          {
+            "image_id": "pii_52",
+            "n_gt": 4,
+            "missed": 1,
+            "mean_coverage": 0.9488782051282051,
+            "outside_pixels": 305,
+            "redacted_pixels": 3654
+          },
+          {
+            "image_id": "pii_33",
+            "n_gt": 5,
+            "missed": 1,
+            "mean_coverage": 0.9473224043715847,
+            "outside_pixels": 3654,
+            "redacted_pixels": 6381
+          },
+          {
+            "image_id": "pii_56",
+            "n_gt": 6,
+            "missed": 1,
+            "mean_coverage": 0.8304597701149424,
+            "outside_pixels": 3657,
+            "redacted_pixels": 7348
+          },
+          {
+            "image_id": "pii_01",
+            "n_gt": 4,
+            "missed": 0,
+            "mean_coverage": 1.0,
+            "outside_pixels": 1826,
+            "redacted_pixels": 5348
+          }
+        ]
+      },
+      "poc_v3_router": {
+        "n_images": 6,
+        "n_reference_regions": 31,
+        "n_predictions": 30,
+        "missed_regions": 3,
+        "pii_miss_rate": 0.0967741935483871,
+        "region_success_rate": 0.9032258064516129,
+        "over_redaction_rate": 0.47082151486500684,
+        "over_outside_pixels": 17927,
+        "redacted_pixels": 38076,
+        "guardrail_pass": false,
+        "all_regions_covered_images": 3,
+        "bootstrap_95ci_miss": [
+          0.029411764705882353,
+          0.17857142857142858
+        ],
+        "bootstrap_95ci_over": [
+          0.3479935275080906,
+          0.5504656124441352
+        ],
+        "by_type": {
+          "face": {
+            "n_regions": 16,
+            "missed": 1,
+            "miss_rate": 0.0625
+          },
+          "plate": {
+            "n_regions": 15,
+            "missed": 2,
+            "miss_rate": 0.13333333333333333
+          }
+        },
+        "per_image": [
+          {
+            "image_id": "pii_57",
+            "n_gt": 6,
+            "missed": 0,
+            "mean_coverage": 1.0,
+            "outside_pixels": 4127,
+            "redacted_pixels": 7136
+          },
+          {
+            "image_id": "pii_48",
+            "n_gt": 6,
+            "missed": 0,
+            "mean_coverage": 0.9941520467836257,
+            "outside_pixels": 4358,
+            "redacted_pixels": 8209
+          },
+          {
+            "image_id": "pii_52",
+            "n_gt": 4,
+            "missed": 1,
+            "mean_coverage": 0.9488782051282051,
+            "outside_pixels": 305,
+            "redacted_pixels": 3654
+          },
+          {
+            "image_id": "pii_33",
+            "n_gt": 5,
+            "missed": 1,
+            "mean_coverage": 0.9473224043715847,
+            "outside_pixels": 3654,
+            "redacted_pixels": 6381
+          },
+          {
+            "image_id": "pii_56",
+            "n_gt": 6,
+            "missed": 1,
+            "mean_coverage": 0.8304597701149424,
+            "outside_pixels": 3657,
+            "redacted_pixels": 7348
+          },
+          {
+            "image_id": "pii_01",
+            "n_gt": 4,
+            "missed": 0,
+            "mean_coverage": 1.0,
+            "outside_pixels": 1826,
+            "redacted_pixels": 5348
+          }
+        ]
+      }
+    }
+  },
+  "routes_all": {
+    "2d": 60
+  },
+  "routes_by_split": {
+    "dev": {
+      "2d": 36
+    },
+    "eval": {
+      "2d": 24
+    }
+  },
+  "route_consistency_with_documented_fixture_2d": 1.0,
+  "real_photo_accuracy": null,
+  "timing_all_images_by_split": {
+    "dev": {
+      "poc_v3_seconds": 22.4343442999525,
+      "poc_v3_router_seconds": 23.683738199993968
+    },
+    "eval": {
+      "poc_v3_seconds": 16.83714129999862,
+      "poc_v3_router_seconds": 17.433129200013354
+    }
+  },
+  "saved_prediction_sha256": {
+    "baseline": "d0b1d78e63de8792df619fd828d3fbbb47d8af0320952d836757422ecc799c79",
+    "poc_v1": "6688f86809394fceaa331517facad683d191f0cc89ef0bd494cf202ee59b65f6"
+  },
+  "reference_images": [
+    {
+      "image_id": "pii_57",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:18:51.013662+00:00",
+      "source_image_sha256": "a3c1d0a86292dbb37e040cff63bd3d308807c3b3b5e9da4ce9ad0fad4f9680d0",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_10",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:19:52.770550+00:00",
+      "source_image_sha256": "87a8ba44f5577665aa0e1e8a8349947b6b6a94f92c5756f44b48bd9521693cce",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 5
+    },
+    {
+      "image_id": "pii_24",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:20:13.808794+00:00",
+      "source_image_sha256": "5363de7bf0c5bdc9db9bcca4f262f850de1942445f21f3e8e26f980ec325d687",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 7
+    },
+    {
+      "image_id": "pii_15",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:25:47.340425+00:00",
+      "source_image_sha256": "86521fa3db84996a2bda83a1383eb4167a92b77374bf2a78e2b7d301f779b2c7",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 5
+    },
+    {
+      "image_id": "pii_48",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:26:03.126258+00:00",
+      "source_image_sha256": "d492b5274f41c6db5ba0d42e497cbf0f94c79a3fe45151ca5a4a627454e1156a",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_40",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:26:13.463112+00:00",
+      "source_image_sha256": "cbcfeaba5a1c5606ddc4605c656faccc69b8be8afd2f1de37de709d2998a621d",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_52",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:26:25.088004+00:00",
+      "source_image_sha256": "d12252c9c9ebd5735e4fae1a537a1bc6a200608110d3225f9f5a69125863d750",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 4
+    },
+    {
+      "image_id": "pii_33",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:26:35.734643+00:00",
+      "source_image_sha256": "cef4ee89741e133351aa4a95aaf16532e2a021da520568922e20ae7f3b3eb425",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 5
+    },
+    {
+      "image_id": "pii_08",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "edit",
+      "reviewed_at": "2026-11-15T03:27:58.633967+00:00",
+      "source_image_sha256": "8d13d28d2f43cdeca70004b8537e33af423dfd360e50e9eff5eb1644baefe5de",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_56",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:24.824147+00:00",
+      "source_image_sha256": "d19a1c5f8aeb726a07b2d617d5133f574a6b604a90f422922becf72dd0f27889",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_38",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:33.390656+00:00",
+      "source_image_sha256": "b1f1602096c1315d212b73948d6590a6a74581b04fd761cc755ec148936fbe92",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_59",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:39.180010+00:00",
+      "source_image_sha256": "e4bf5ce7e255fecab125e2d8ea4eabc7715998dd4479e1b7ac83479ba51c378b",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 4
+    },
+    {
+      "image_id": "pii_12",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:48.688849+00:00",
+      "source_image_sha256": "eac409b38ae8c829fcb876e0dd5f7da5488085065a69f4672380d5369f7e253c",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 5
+    },
+    {
+      "image_id": "pii_01",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:53.855572+00:00",
+      "source_image_sha256": "0c7248a97da3ba893323dcde00b2bbb51fe086dddcb265098af08ef6cb3d5405",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 4
+    },
+    {
+      "image_id": "pii_19",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:58.204673+00:00",
+      "source_image_sha256": "0e99a73789aa5d008e1c0f4d83b153c323ef97473fb73ec69c2a1ba8ccd20dda",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 5
+    }
+  ],
+  "freeze": "reports/evidence/reviewed_reference/experiment_freeze.json",
+  "review_journal_unchanged": true,
+  "warning": "Risk-selected approved blur boxes, with padding and prior model/review exposure; not independent instructor ground truth."
+}

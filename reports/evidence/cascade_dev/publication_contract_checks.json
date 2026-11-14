@@ -1,0 +1,87 @@
+{
+  "recorded_at": "2026-11-16T04:49:25.949540+00:00",
+  "scope": "isolated checkout; no old local output or reviews copied",
+  "official_evaluation": {
+    "command": "python -m src.evaluate --track t07 --pred out/poc/redactions.csv",
+    "returncode": 2,
+    "stdout": "",
+    "stderr": "ground truth file not found: <checkout>\\fixtures\\t07_redaction\\gt\\gt_regions.csv\nGround truth is not distributed in the student repo; the instructor runs official evaluation (docs/INSTRUCTOR_SETUP.md).\n",
+    "reason": "instructor ground-truth overlay not distributed"
+  },
+  "poc": {
+    "returncode": 0,
+    "seed": 42,
+    "runtime_seconds": 17.4324,
+    "queue_size": 15,
+    "decision": "HOLD",
+    "reason_code": "HUMAN_REVIEW_PENDING",
+    "stats": {
+      "n_items": 60,
+      "mode": "poc",
+      "model_hashes": {
+        "face": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+        "plate": "c3c1026ca7d0585dd88084d68182dd897113712fa734ae1557ca70174440c076"
+      },
+      "queue_size": 15,
+      "n_completed": 0,
+      "n_pending": 15,
+      "n_changed_images": 0,
+      "n_correction_requests": 0,
+      "independent_quality_validation": false,
+      "quality_claim": "Human queue completion is not a full-dataset privacy guarantee",
+      "n_regions": 327
+    }
+  },
+  "baseline": {
+    "returncode": 0,
+    "seed": 42,
+    "runtime_seconds": 11.8259,
+    "queue_size": null,
+    "decision": "HOLD",
+    "reason_code": "INDEPENDENT_QA_PENDING",
+    "stats": {
+      "n_items": 60,
+      "mode": "baseline",
+      "model_hashes": {
+        "face": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+        "plate": "c3c1026ca7d0585dd88084d68182dd897113712fa734ae1557ca70174440c076"
+      },
+      "n_regions": 62
+    }
+  },
+  "blur_all": {
+    "returncode": 0,
+    "seed": 42,
+    "runtime_seconds": 3.5042,
+    "queue_size": null,
+    "decision": "HOLD",
+    "reason_code": "INDEPENDENT_QA_PENDING",
+    "stats": {
+      "n_items": 60,
+      "mode": "blur_all",
+      "model_hashes": {},
+      "n_regions": 60
+    }
+  },
+  "cascade_dev": {
+    "returncode": 0,
+    "seed": 42,
+    "runtime_seconds": 278.1138,
+    "decision": "HOLD",
+    "reason_code": "HUMAN_REVIEW_PENDING",
+    "stats": {
+      "n_items": 36,
+      "mode": "poc",
+      "model_hashes": {},
+      "algorithm": "auto-cascade-1",
+      "queue_size": 15,
+      "n_completed": 0,
+      "n_pending": 15,
+      "n_changed_images": 0,
+      "n_correction_requests": 0,
+      "independent_quality_validation": false,
+      "quality_claim": "Human queue completion is not a full-dataset privacy guarantee",
+      "n_regions": 222
+    }
+  }
+}

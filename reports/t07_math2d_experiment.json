@@ -1,0 +1,311 @@
+{
+  "at": "2026-11-15T15:35:06.806330+00:00",
+  "status": "REWORK_OVER_REDACTION",
+  "coverage_targets_pass": true,
+  "overall_quality_pass": false,
+  "metrics": {
+    "dev": {
+      "n_images": 9,
+      "n_reference_regions": 49,
+      "n_predictions": 61,
+      "missed_regions": 2,
+      "pii_miss_rate": 0.04081632653061224,
+      "region_success_rate": 0.9591836734693877,
+      "over_redaction_rate": 0.28550030933541726,
+      "over_outside_pixels": 17536,
+      "redacted_pixels": 61422,
+      "guardrail_pass": true,
+      "all_regions_covered_images": 7,
+      "bootstrap_95ci_miss": [
+        0.0,
+        0.09615384615384616
+      ],
+      "bootstrap_95ci_over": [
+        0.23642966117724193,
+        0.35063195448126894
+      ],
+      "by_type": {
+        "face": {
+          "n_regions": 26,
+          "missed": 0,
+          "miss_rate": 0.0
+        },
+        "plate": {
+          "n_regions": 23,
+          "missed": 2,
+          "miss_rate": 0.08695652173913043
+        }
+      },
+      "per_image": [
+        {
+          "image_id": "pii_10",
+          "n_gt": 5,
+          "missed": 0,
+          "mean_coverage": 1.0,
+          "outside_pixels": 2996,
+          "redacted_pixels": 7584
+        },
+        {
+          "image_id": "pii_24",
+          "n_gt": 7,
+          "missed": 0,
+          "mean_coverage": 0.9876984126984126,
+          "outside_pixels": 1915,
+          "redacted_pixels": 9788
+        },
+        {
+          "image_id": "pii_15",
+          "n_gt": 5,
+          "missed": 0,
+          "mean_coverage": 0.9872222222222222,
+          "outside_pixels": 1767,
+          "redacted_pixels": 6152
+        },
+        {
+          "image_id": "pii_40",
+          "n_gt": 6,
+          "missed": 1,
+          "mean_coverage": 0.9726495726495727,
+          "outside_pixels": 2430,
+          "redacted_pixels": 9629
+        },
+        {
+          "image_id": "pii_08",
+          "n_gt": 6,
+          "missed": 0,
+          "mean_coverage": 1.0,
+          "outside_pixels": 2593,
+          "redacted_pixels": 7987
+        },
+        {
+          "image_id": "pii_38",
+          "n_gt": 6,
+          "missed": 1,
+          "mean_coverage": 0.894314236111111,
+          "outside_pixels": 1096,
+          "redacted_pixels": 6505
+        },
+        {
+          "image_id": "pii_59",
+          "n_gt": 4,
+          "missed": 0,
+          "mean_coverage": 0.9877049180327868,
+          "outside_pixels": 1464,
+          "redacted_pixels": 4887
+        },
+        {
+          "image_id": "pii_12",
+          "n_gt": 5,
+          "missed": 0,
+          "mean_coverage": 0.990909090909091,
+          "outside_pixels": 1871,
+          "redacted_pixels": 3881
+        },
+        {
+          "image_id": "pii_19",
+          "n_gt": 5,
+          "missed": 0,
+          "mean_coverage": 0.9571428571428571,
+          "outside_pixels": 1404,
+          "redacted_pixels": 5009
+        }
+      ],
+      "split": "dev",
+      "seconds": 367.73250319997896,
+      "n_processed_images": 36,
+      "seed": 42,
+      "source_sha256": {
+        "src/t07_math2d.py": "c0589dc83a401e1e9667c4b195e7fc09aef0fce4e5b46e31297e87f8591a7e2b",
+        "src/t07_geometry.py": "1bc4efc81ace38677f904d2c338e0a5d09d51d9c0b0d78064548fb202a8fb48f",
+        "src/t07_local_shapes.py": "c1adcb75b46dc730f154e31be3215a0a72a466cc7a26b476515c99668c62a875",
+        "src/t07_fusion.py": "5393aee93bce0852ef929f9af5d357feb20aecb6bba0acc3e37bf5da35b5e4ce",
+        "src/t07_restoration.py": "22f9bb44d251be67312977b7da9b8fa124188548443a290ab8bb298e0166f453",
+        "src/t07_rules_v3.py": "13b57c9761594f8ae7aefec378ad266c7d7b41420a8d9f5e7e34034d3e22449a",
+        "src/t07_rules_v4.py": "28bb1c788cbb22e77c29bebfee99d4e01d2ad4e8f1638e09737db6cbae9d3f59",
+        "src/t07_router.py": "22ef7a2a0db821e9dba34ba65f814bc96a597a3c6c9f70d7551a0bf4148ffc01",
+        "src/t07_detectors.py": "c5c0c0caead1e2dfae02e9f851245d4327496faa91863cc62baaeff823557bc2",
+        "src/metrics/detection.py": "801a08c6a1e3ddf3652d55e7f6af92d3229f70be2b8d6edd21f2be21d521f82e",
+        "tools/evaluate_t07_reviewed.py": "3c7cb6a0bcceb0390a17071a859fc4c9eff8d674150d13aebec97240f5936239",
+        "tools/evaluate_t07_math2d.py": "355ada3bbd431af2dccf66787b986b12601b8b4d5e3bf8e1b4871c0934975f7b"
+      },
+      "config": {
+        "restoration_gains": [
+          0.8,
+          1.0,
+          1.2
+        ],
+        "noise_ratio": 0.003,
+        "coarse_padding": 0.01,
+        "small_face_max_size": 20,
+        "panel_padding_x": 8,
+        "panel_padding_y": 4,
+        "fine_face_fraction": 0.0,
+        "plate_support_fraction": 0.0
+      },
+      "environment": {
+        "python": "3.13.17",
+        "opencv": "5.0.0",
+        "numpy": "2.5.4",
+        "pandas": "3.1.1"
+      },
+      "reference_sha256": "c4c97d111c16a15300e5bf5b3e910f46acd29f9efcf2f1f818303da8244aef6e",
+      "independent_holdout": false
+    },
+    "eval": {
+      "n_images": 6,
+      "n_reference_regions": 31,
+      "n_predictions": 51,
+      "missed_regions": 1,
+      "pii_miss_rate": 0.03225806451612903,
+      "region_success_rate": 0.967741935483871,
+      "over_redaction_rate": 0.5021592920353982,
+      "over_outside_pixels": 21279,
+      "redacted_pixels": 42375,
+      "guardrail_pass": false,
+      "all_regions_covered_images": 5,
+      "bootstrap_95ci_miss": [
+        0.0,
+        0.09375
+      ],
+      "bootstrap_95ci_over": [
+        0.4068754479792689,
+        0.5903501560815136
+      ],
+      "by_type": {
+        "face": {
+          "n_regions": 16,
+          "missed": 0,
+          "miss_rate": 0.0
+        },
+        "plate": {
+          "n_regions": 15,
+          "missed": 1,
+          "miss_rate": 0.06666666666666667
+        }
+      },
+      "per_image": [
+        {
+          "image_id": "pii_57",
+          "n_gt": 6,
+          "missed": 0,
+          "mean_coverage": 1.0,
+          "outside_pixels": 6118,
+          "redacted_pixels": 9127
+        },
+        {
+          "image_id": "pii_48",
+          "n_gt": 6,
+          "missed": 1,
+          "mean_coverage": 0.8333333333333334,
+          "outside_pixels": 3749,
+          "redacted_pixels": 7121
+        },
+        {
+          "image_id": "pii_52",
+          "n_gt": 4,
+          "missed": 0,
+          "mean_coverage": 0.99375,
+          "outside_pixels": 1278,
+          "redacted_pixels": 4753
+        },
+        {
+          "image_id": "pii_33",
+          "n_gt": 5,
+          "missed": 0,
+          "mean_coverage": 1.0,
+          "outside_pixels": 3710,
+          "redacted_pixels": 6622
+        },
+        {
+          "image_id": "pii_56",
+          "n_gt": 6,
+          "missed": 0,
+          "mean_coverage": 1.0,
+          "outside_pixels": 3466,
+          "redacted_pixels": 8272
+        },
+        {
+          "image_id": "pii_01",
+          "n_gt": 4,
+          "missed": 0,
+          "mean_coverage": 1.0,
+          "outside_pixels": 2958,
+          "redacted_pixels": 6480
+        }
+      ],
+      "split": "eval",
+      "seconds": 245.0400555000233,
+      "n_processed_images": 24,
+      "seed": 42,
+      "source_sha256": {
+        "src/t07_math2d.py": "c0589dc83a401e1e9667c4b195e7fc09aef0fce4e5b46e31297e87f8591a7e2b",
+        "src/t07_geometry.py": "1bc4efc81ace38677f904d2c338e0a5d09d51d9c0b0d78064548fb202a8fb48f",
+        "src/t07_local_shapes.py": "c1adcb75b46dc730f154e31be3215a0a72a466cc7a26b476515c99668c62a875",
+        "src/t07_fusion.py": "5393aee93bce0852ef929f9af5d357feb20aecb6bba0acc3e37bf5da35b5e4ce",
+        "src/t07_restoration.py": "22f9bb44d251be67312977b7da9b8fa124188548443a290ab8bb298e0166f453",
+        "src/t07_rules_v3.py": "13b57c9761594f8ae7aefec378ad266c7d7b41420a8d9f5e7e34034d3e22449a",
+        "src/t07_rules_v4.py": "28bb1c788cbb22e77c29bebfee99d4e01d2ad4e8f1638e09737db6cbae9d3f59",
+        "src/t07_router.py": "22ef7a2a0db821e9dba34ba65f814bc96a597a3c6c9f70d7551a0bf4148ffc01",
+        "src/t07_detectors.py": "c5c0c0caead1e2dfae02e9f851245d4327496faa91863cc62baaeff823557bc2",
+        "src/metrics/detection.py": "801a08c6a1e3ddf3652d55e7f6af92d3229f70be2b8d6edd21f2be21d521f82e",
+        "tools/evaluate_t07_reviewed.py": "3c7cb6a0bcceb0390a17071a859fc4c9eff8d674150d13aebec97240f5936239",
+        "tools/evaluate_t07_math2d.py": "355ada3bbd431af2dccf66787b986b12601b8b4d5e3bf8e1b4871c0934975f7b"
+      },
+      "config": {
+        "restoration_gains": [
+          0.8,
+          1.0,
+          1.2
+        ],
+        "noise_ratio": 0.003,
+        "coarse_padding": 0.01,
+        "small_face_max_size": 20,
+        "panel_padding_x": 8,
+        "panel_padding_y": 4,
+        "fine_face_fraction": 0.0,
+        "plate_support_fraction": 0.0
+      },
+      "environment": {
+        "python": "3.13.17",
+        "opencv": "5.0.0",
+        "numpy": "2.5.4",
+        "pandas": "3.1.1"
+      },
+      "reference_sha256": "98bd173f26eca61d37728183959f73ec247c67062103deae973426995f652b50",
+      "independent_holdout": false
+    }
+  },
+  "checks": {
+    "source_matches_freeze": true,
+    "dev_reference_matches": true,
+    "eval_reference_matches": true,
+    "validation_once_complete": true,
+    "full_suite_before_web_integration": {
+      "tests": 163,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 39,
+      "passed": 124
+    },
+    "targeted_web_and_math_stdout": {
+      "passed": 12,
+      "failed": 0
+    },
+    "browser": {
+      "desktop": {
+        "ok": true,
+        "checks": 13
+      },
+      "mobile": {
+        "ok": true,
+        "checks": 12
+      }
+    },
+    "human_audit_sha256": "d60d1e1fff07581602c6d997852e13998fdde437b58d5c70386de111b8fb5604",
+    "human_audit_unchanged": true
+  },
+  "reference_kind": "user_reviewed_boxes_with_padding",
+  "independent_holdout": false,
+  "source_freeze": "reports/t07_math2d_freeze.json",
+  "warning": "Internal reviewed subset only. Val was measured once after dev freeze; no retuning. Instructor GT is unavailable."
+}

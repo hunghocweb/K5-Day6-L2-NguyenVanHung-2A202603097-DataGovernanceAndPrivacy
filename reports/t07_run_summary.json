@@ -1,0 +1,69 @@
+{
+  "runs": {
+    "baseline": {
+      "status": 0,
+      "seed": 42,
+      "offline": true,
+      "n_images": 60,
+      "n_regions": 62,
+      "runtime_seconds": 47.9481,
+      "runtime_per_100_images_seconds": 79.91349999999998,
+      "source": "out\\baseline\\run_info.json",
+      "detections_by_source": [
+        {
+          "type": "plate",
+          "source": "yolov9",
+          "n_regions": 62
+        }
+      ],
+      "quality_metrics": null
+    },
+    "poc": {
+      "status": 0,
+      "seed": 42,
+      "offline": true,
+      "n_images": 60,
+      "n_regions": 327,
+      "runtime_seconds": 52.6858,
+      "runtime_per_100_images_seconds": 87.80966666666667,
+      "source": "out\\poc\\run_info.json",
+      "detections_by_source": [
+        {
+          "type": "face",
+          "source": "synthetic_head_eye_rule",
+          "n_regions": 145
+        },
+        {
+          "type": "plate",
+          "source": "synthetic_plate_rule",
+          "n_regions": 131
+        },
+        {
+          "type": "plate",
+          "source": "yolov9",
+          "n_regions": 51
+        }
+      ],
+      "quality_metrics": null
+    },
+    "blur_all": {
+      "status": 0,
+      "seed": 42,
+      "offline": true,
+      "n_images": 60,
+      "n_regions": 60,
+      "runtime_seconds": 12.7411,
+      "runtime_per_100_images_seconds": 21.235166666666665,
+      "source": "out\\blur_all\\run_info.json",
+      "detections_by_source": [
+        {
+          "type": "all",
+          "source": "blur_all_control",
+          "n_regions": 60
+        }
+      ],
+      "quality_metrics": null
+    }
+  },
+  "note": "Counts and runtime only; no precision/recall or official quality claim without GT. Runtime includes export and concurrent machine load."
+}

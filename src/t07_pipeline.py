@@ -58,10 +58,23 @@ def blur(image, boxes):
 
 def process(ctx, images, mode="poc"):
     params = ctx.config.get("params", {})
-    detector = None if mode == "blur_all" else LocalDetectors(params)
+    precision_mode = mode == "poc" and params.get("synthetic_algorithm") == "precision"
+    auto_mode = mode == "poc" and params.get("detection_pipeline") == "auto"
+    auto_detector = None
+    if auto_mode:
+        from .t07_auto import AutoDetectors
+        auto_detector = AutoDetectors(params)
+    detector_class = LocalDetectors
+    if params.get("detector_strategy") == "multiscale":
+        from .t07_multiscale import MultiScaleDetectors
+        detector_class = MultiScaleDetectors
+    detector = None if mode == "blur_all" or precision_mode or auto_mode else detector_class(params)
     model_hashes = {} if detector is None else {
         kind: detector.inventory[kind]["sha256"] for kind in ("face", "plate")}
+    if precision_mode:
+        model_hashes = {"precision_config": sha256_file(Path(__file__).resolve().parents[1] / "configs/t07_precision.json")}
     rows, boxes_by_id = [], {}
+    precision_trace = {}
     for row in images.itertuples(index=False):
         path = ctx.input_dir / row.path
         image = cv2.imread(str(path))
@@ -71,11 +84,40 @@ def process(ctx, images, mode="poc"):
         if mode == "blur_all":
             boxes = [{"x": 0, "y": 0, "w": row.width, "h": row.height,
                       "type": "all", "confidence": 1.0, "source": "blur_all_control"}]
+        elif auto_mode:
+            result = auto_detector.detect_details(image)
+            boxes = [clip_box(dict(b), row.width, row.height, float(params.get("padding", 0))) for b in result["merged"]]
+            ambiguous = result["ambiguous_heads"]
+            precision_trace[row.image_id] = {"algorithm": result["algorithm"], "routing": result["routing"],
+                "cascade": result.get("cascade"), "selected_algorithm": result.get("selected_algorithm"),
+                "detector_padding_applied": result.get("detector_padding_applied", False),
+                "padding_policy": result.get("padding_policy"),
+                "review_reasons": result["review_reasons"], "requires_human_review": True,
+                "human_review_recorded": False, "bbox_calibration_applied": False,
+                "padding_applications": None if result.get("detector_padding_applied") else 1,
+                "user_padding_applications": 1}
+            if auto_detector.photo is not None:
+                model_hashes = {kind: auto_detector.photo.inventory[kind]["sha256"] for kind in ("face", "plate")}
+        elif precision_mode:
+            from .t07_precision_pipeline import detect_details
+            result = detect_details(image)
+            boxes, ambiguous = result["boxes"], result["ambiguous_heads"]
+            boxes = [clip_box(b, row.width, row.height, float(params.get("padding", 0))) for b in boxes]
+            precision_trace[row.image_id] = {"algorithm": result["algorithm"], "route": "2d",
+                "route_source": "explicit_precision_2d_mode", "estimated_sigma": result["estimated_sigma"],
+                "requires_human_review": True, "human_review_recorded": False}
         else:
             boxes = detector.detect(image)
             if mode == "poc":
-                proposals, ambiguous = synthetic_proposals(image)
-                boxes = deduplicate(boxes + proposals)
+                if params.get("synthetic_algorithm", "v1") == "v3":
+                    from .t07_rules_v3 import detect
+                    boxes, ambiguous = detect(image, boxes)
+                elif params.get("synthetic_algorithm", "v1") == "v2":
+                    from .t07_rules_v2 import detect
+                    boxes, ambiguous = detect(image, boxes)
+                elif params.get("synthetic_algorithm", "v1") == "v1":
+                    proposals, ambiguous = synthetic_proposals(image)
+                    boxes = deduplicate(boxes + proposals)
             padding = float(params.get("padding", 0.03)) if mode == "poc" else 0.0
             boxes = [clip_box(box, row.width, row.height, padding) for box in boxes]
         boxes_by_id[row.image_id] = boxes
@@ -98,6 +140,13 @@ def process(ctx, images, mode="poc"):
     ctx.stats["n_items"] = len(images)
     ctx.stats["mode"] = mode
     ctx.stats["model_hashes"] = model_hashes
+    if precision_mode:
+        ctx.stats["algorithm"] = "precision-dev-1"
+        write_json(ctx.out("precision_trace.json"), precision_trace)
+    if auto_mode:
+        from .t07_auto import VERSION
+        ctx.stats["algorithm"] = VERSION
+        write_json(ctx.out("routing_trace.json"), precision_trace)
     write_json(ctx.out("predictions_machine.json"), boxes_by_id)
     return pd.DataFrame(rows), boxes_by_id
 

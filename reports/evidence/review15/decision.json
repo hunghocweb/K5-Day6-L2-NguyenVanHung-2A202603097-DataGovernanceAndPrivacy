@@ -1,0 +1,13 @@
+{
+  "status": "HOLD",
+  "reason_code": "INDEPENDENT_QA_PENDING",
+  "owner": "Nguyễn Văn Hùng - owner/reviewer",
+  "scope": "original_top15",
+  "completed": 15,
+  "budget": 15,
+  "n_images": 60,
+  "review_budget": 15,
+  "queue_rejected_ids": [],
+  "official_quality_metrics": null,
+  "extra_reviews_applied": false
+}

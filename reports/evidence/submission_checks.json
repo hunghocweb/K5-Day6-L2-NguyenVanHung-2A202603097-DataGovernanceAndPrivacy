@@ -1,0 +1,36 @@
+{
+  "report_sections": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11"
+  ],
+  "no_template_placeholders": true,
+  "queue_rows": 15,
+  "zip_pngs": 60,
+  "predictions_copies_match": true,
+  "outside_queue_unchanged": 45,
+  "bundle_hash_matches": true,
+  "local_links_missing": [],
+  "current_web_gate": {
+    "status": "REWORK",
+    "completed": 15,
+    "budget": 15,
+    "reason_code": "REVIEW_REJECTED",
+    "owner": "Nguyễn Văn Hùng - owner/reviewer",
+    "scope": "t07_web_review",
+    "reason": "Có ảnh cần sửa tiếp"
+  },
+  "audit_unchanged_after_projection_refresh": true,
+  "upload_file_count": 108,
+  "functional_checks_passed": true,
+  "quality_metrics": null
+}

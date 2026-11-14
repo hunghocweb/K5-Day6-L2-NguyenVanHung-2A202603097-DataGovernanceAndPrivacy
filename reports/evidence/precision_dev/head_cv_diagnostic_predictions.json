@@ -1,0 +1,1322 @@
+{
+  "pii_10": [
+    {
+      "x": 109,
+      "y": 95,
+      "w": 23,
+      "h": 30,
+      "type": "face",
+      "confidence": 0.8895427286356822,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9693396226415094
+    },
+    {
+      "x": 123,
+      "y": 171,
+      "w": 23,
+      "h": 30,
+      "type": "face",
+      "confidence": 0.8883168693009118,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9700214132762313
+    },
+    {
+      "x": 77,
+      "y": 326,
+      "w": 65,
+      "h": 20,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        36,
+        298,
+        139,
+        57
+      ],
+      "panel_xywh": [
+        79,
+        327,
+        58,
+        18
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 23.97039794921875,
+      "trace_runs": [
+        [
+          79,
+          3
+        ],
+        [
+          84,
+          3
+        ],
+        [
+          89,
+          3
+        ],
+        [
+          94,
+          1
+        ],
+        [
+          96,
+          9
+        ],
+        [
+          106,
+          6
+        ],
+        [
+          113,
+          3
+        ],
+        [
+          117,
+          5
+        ],
+        [
+          123,
+          2
+        ],
+        [
+          129,
+          2
+        ],
+        [
+          132,
+          5
+        ]
+      ]
+    },
+    {
+      "x": 451,
+      "y": 259,
+      "w": 55,
+      "h": 15,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        425,
+        240,
+        98,
+        42
+      ],
+      "panel_xywh": [
+        453,
+        260,
+        46,
+        13
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 49.02219009399414,
+      "trace_runs": [
+        [
+          454,
+          47
+        ]
+      ]
+    },
+    {
+      "x": 452,
+      "y": 328,
+      "w": 69,
+      "h": 19,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        412,
+        301,
+        138,
+        56
+      ],
+      "panel_xywh": [
+        454,
+        329,
+        62,
+        17
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 79.73141479492188,
+      "trace_runs": [
+        [
+          454,
+          2
+        ],
+        [
+          457,
+          59
+        ]
+      ]
+    }
+  ],
+  "pii_24": [
+    {
+      "x": 440,
+      "y": 91,
+      "w": 34,
+      "h": 43,
+      "type": "face",
+      "confidence": 0.8878827001106603,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9840546697038725
+    },
+    {
+      "x": 398,
+      "y": 224,
+      "w": 26,
+      "h": 35,
+      "type": "face",
+      "confidence": 0.8860494880546075,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.978
+    },
+    {
+      "x": 140,
+      "y": 233,
+      "w": 33,
+      "h": 46,
+      "type": "face",
+      "confidence": 0.8801529873888774,
+      "source": "v3_ellipse_eyes_lower_feature",
+      "merged_sources": [
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9562118126272913
+    },
+    {
+      "x": 162,
+      "y": 242,
+      "w": 30,
+      "h": 43,
+      "type": "face",
+      "confidence": 0.8791280979396835,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.7884615384615384
+    },
+    {
+      "x": 131,
+      "y": 282,
+      "w": 60,
+      "h": 24,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        98,
+        263,
+        113,
+        50
+      ],
+      "panel_xywh": [
+        132,
+        285,
+        44,
+        19
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 8.489155769348145,
+      "trace_runs": [
+        [
+          131,
+          1
+        ],
+        [
+          163,
+          25
+        ]
+      ]
+    },
+    {
+      "x": 155,
+      "y": 276,
+      "w": 11,
+      "h": 10,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        98,
+        260,
+        114,
+        53
+      ],
+      "panel_xywh": [
+        155,
+        279,
+        8,
+        5
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 0.3192863464355469,
+      "trace_runs": []
+    },
+    {
+      "x": 162,
+      "y": 275,
+      "w": 26,
+      "h": 16,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        97,
+        246,
+        124,
+        68
+      ],
+      "panel_xywh": [
+        170,
+        282,
+        7,
+        3
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "partial_panel_uncertain",
+      "requires_review": true
+    },
+    {
+      "x": 402,
+      "y": 208,
+      "w": 41,
+      "h": 16,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        387,
+        201,
+        59,
+        24
+      ],
+      "panel_xywh": [
+        402,
+        211,
+        31,
+        11
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 10.603435516357422,
+      "trace_runs": [
+        [
+          407,
+          8
+        ],
+        [
+          428,
+          12
+        ]
+      ]
+    },
+    {
+      "x": 428,
+      "y": 298,
+      "w": 63,
+      "h": 21,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        395,
+        278,
+        119,
+        47
+      ],
+      "panel_xywh": [
+        430,
+        301,
+        55,
+        16
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 28.251869201660156,
+      "trace_runs": [
+        [
+          428,
+          21
+        ],
+        [
+          450,
+          1
+        ],
+        [
+          452,
+          16
+        ],
+        [
+          471,
+          17
+        ]
+      ]
+    }
+  ],
+  "pii_15": [
+    {
+      "x": 205,
+      "y": 57,
+      "w": 33,
+      "h": 42,
+      "type": "face",
+      "confidence": 0.89021113243762,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9861111111111112
+    },
+    {
+      "x": 357,
+      "y": 160,
+      "w": 19,
+      "h": 23,
+      "type": "face",
+      "confidence": 0.8782131661442006,
+      "source": "v3_ellipse_eyes_lower_feature",
+      "merged_sources": [
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.914572864321608
+    },
+    {
+      "x": 245,
+      "y": 209,
+      "w": 36,
+      "h": 17,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        227,
+        204,
+        65,
+        22
+      ],
+      "panel_xywh": [
+        245,
+        212,
+        32,
+        12
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 3.0789506435394287,
+      "trace_runs": [
+        [
+          272,
+          6
+        ]
+      ]
+    },
+    {
+      "x": 336,
+      "y": 189,
+      "w": 34,
+      "h": 15,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        323,
+        184,
+        53,
+        20
+      ],
+      "panel_xywh": [
+        336,
+        192,
+        27,
+        10
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 8.77731704711914,
+      "trace_runs": [
+        [
+          357,
+          10
+        ]
+      ]
+    },
+    {
+      "x": 417,
+      "y": 315,
+      "w": 73,
+      "h": 22,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        381,
+        292,
+        130,
+        52
+      ],
+      "panel_xywh": [
+        419,
+        318,
+        61,
+        17
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 21.07590675354004,
+      "trace_runs": [
+        [
+          417,
+          6
+        ],
+        [
+          468,
+          19
+        ]
+      ]
+    }
+  ],
+  "pii_40": [
+    {
+      "x": 527,
+      "y": 205,
+      "w": 32,
+      "h": 40,
+      "type": "face",
+      "confidence": 0.8964953271028038,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9872881355932204
+    },
+    {
+      "x": 118,
+      "y": 126,
+      "w": 32,
+      "h": 42,
+      "type": "face",
+      "confidence": 0.8951002865329513,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9738219895287958
+    },
+    {
+      "x": 458,
+      "y": 243,
+      "w": 35,
+      "h": 43,
+      "type": "face",
+      "confidence": 0.8910757946210269,
+      "source": "router_union",
+      "merged_sources": [
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9717083786724701
+    },
+    {
+      "x": 505,
+      "y": 297,
+      "w": 30,
+      "h": 38,
+      "type": "face",
+      "confidence": 0.8886733902249806,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9881656804733728
+    },
+    {
+      "x": 181,
+      "y": 278,
+      "w": 60,
+      "h": 20,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        152,
+        261,
+        105,
+        42
+      ],
+      "panel_xywh": [
+        181,
+        281,
+        44,
+        15
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 13.13084888458252,
+      "trace_runs": [
+        [
+          181,
+          3
+        ],
+        [
+          222,
+          16
+        ]
+      ]
+    },
+    {
+      "x": 325,
+      "y": 313,
+      "w": 64,
+      "h": 23,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        289,
+        292,
+        128,
+        51
+      ],
+      "panel_xywh": [
+        327,
+        316,
+        54,
+        18
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 23.307985305786133,
+      "trace_runs": [
+        [
+          325,
+          7
+        ],
+        [
+          374,
+          12
+        ]
+      ]
+    }
+  ],
+  "pii_08": [
+    {
+      "x": 17,
+      "y": 296,
+      "w": 32,
+      "h": 41,
+      "type": "face",
+      "confidence": 0.8942688679245283,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9876416065911432
+    },
+    {
+      "x": 600,
+      "y": 214,
+      "w": 28,
+      "h": 36,
+      "type": "face",
+      "confidence": 0.8892220902612826,
+      "source": "router_union",
+      "merged_sources": [
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.969187675070028
+    },
+    {
+      "x": 85,
+      "y": 103,
+      "w": 34,
+      "h": 40,
+      "type": "face",
+      "confidence": 0.8850810295519542,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "face_no_closed_ellipse"
+    },
+    {
+      "x": 261,
+      "y": 186,
+      "w": 36,
+      "h": 11,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        252,
+        180,
+        42,
+        18
+      ],
+      "panel_xywh": [
+        263,
+        187,
+        24,
+        9
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 25.758317947387695,
+      "trace_runs": [
+        [
+          264,
+          23
+        ],
+        [
+          288,
+          1
+        ],
+        [
+          291,
+          1
+        ]
+      ]
+    },
+    {
+      "x": 280,
+      "y": 303,
+      "w": 63,
+      "h": 17,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        246,
+        279,
+        121,
+        50
+      ],
+      "panel_xywh": [
+        282,
+        304,
+        56,
+        15
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 49.962650299072266,
+      "trace_runs": [
+        [
+          282,
+          55
+        ]
+      ]
+    },
+    {
+      "x": 296,
+      "y": 190,
+      "w": 46,
+      "h": 13,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        288,
+        184,
+        47,
+        20
+      ],
+      "panel_xywh": [
+        298,
+        191,
+        36,
+        11
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 9.164684295654297,
+      "trace_runs": [
+        [
+          276,
+          6
+        ],
+        [
+          302,
+          1
+        ],
+        [
+          307,
+          1
+        ],
+        [
+          310,
+          1
+        ],
+        [
+          312,
+          1
+        ],
+        [
+          314,
+          2
+        ],
+        [
+          319,
+          5
+        ],
+        [
+          325,
+          1
+        ],
+        [
+          327,
+          1
+        ],
+        [
+          329,
+          2
+        ],
+        [
+          332,
+          2
+        ],
+        [
+          335,
+          2
+        ]
+      ]
+    }
+  ],
+  "pii_38": [
+    {
+      "x": 102,
+      "y": 181,
+      "w": 33,
+      "h": 42,
+      "type": "face",
+      "confidence": 0.8957248561249658,
+      "source": "router_union",
+      "merged_sources": [
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9795918367346939
+    },
+    {
+      "x": 494,
+      "y": 140,
+      "w": 29,
+      "h": 37,
+      "type": "face",
+      "confidence": 0.8918153200419727,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9754098360655737
+    },
+    {
+      "x": 158,
+      "y": 250,
+      "w": 32,
+      "h": 40,
+      "type": "face",
+      "confidence": 0.889487870619946,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9695767195767195
+    },
+    {
+      "x": 197,
+      "y": 206,
+      "w": 42,
+      "h": 17,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        181,
+        200,
+        63,
+        23
+      ],
+      "panel_xywh": [
+        198,
+        209,
+        31,
+        12
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 10.70069694519043,
+      "trace_runs": [
+        [
+          197,
+          39
+        ]
+      ]
+    },
+    {
+      "x": 233,
+      "y": 183,
+      "w": 37,
+      "h": 17,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        235,
+        180,
+        33,
+        13
+      ],
+      "panel_xywh": [
+        245,
+        188,
+        7,
+        2
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "tiny_occluded_panel_vehicle_fallback",
+      "requires_review": true
+    },
+    {
+      "x": 352,
+      "y": 231,
+      "w": 42,
+      "h": 18,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        330,
+        220,
+        78,
+        32
+      ],
+      "panel_xywh": [
+        352,
+        234,
+        35,
+        13
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 6.008931636810303,
+      "trace_runs": [
+        [
+          385,
+          6
+        ]
+      ]
+    }
+  ],
+  "pii_59": [
+    {
+      "x": 489,
+      "y": 129,
+      "w": 29,
+      "h": 37,
+      "type": "face",
+      "confidence": 0.8897574984045947,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9882154882154882
+    },
+    {
+      "x": 74,
+      "y": 144,
+      "w": 21,
+      "h": 26,
+      "type": "face",
+      "confidence": 0.8816010329244675,
+      "source": "router_union",
+      "merged_sources": [
+        "v3_ellipse_eyes_lower_feature"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9613899613899614
+    },
+    {
+      "x": 225,
+      "y": 276,
+      "w": 65,
+      "h": 22,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        197,
+        261,
+        104,
+        41
+      ],
+      "panel_xywh": [
+        227,
+        279,
+        47,
+        17
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 20.172330856323242,
+      "trace_runs": [
+        [
+          225,
+          62
+        ]
+      ]
+    },
+    {
+      "x": 293,
+      "y": 240,
+      "w": 53,
+      "h": 21,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        302,
+        232,
+        58,
+        32
+      ],
+      "panel_xywh": [
+        305,
+        243,
+        33,
+        16
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 22.291658401489258,
+      "trace_runs": [
+        [
+          293,
+          3
+        ],
+        [
+          306,
+          9
+        ],
+        [
+          324,
+          2
+        ],
+        [
+          331,
+          12
+        ]
+      ]
+    }
+  ],
+  "pii_12": [
+    {
+      "x": 347,
+      "y": 161,
+      "w": 11,
+      "h": 12,
+      "type": "face",
+      "confidence": 0.8886375988703534,
+      "source": "v4_local_face_pattern",
+      "merged_sources": [
+        "v4_local_face_pattern"
+      ],
+      "refinement": "tiny_joint_eye_mouth_and_core",
+      "joint_score": 0.8072977635057091
+    },
+    {
+      "x": 567,
+      "y": 193,
+      "w": 10,
+      "h": 12,
+      "type": "face",
+      "confidence": 0.8644100336129328,
+      "source": "v4_local_face_pattern",
+      "merged_sources": [
+        "v4_local_face_pattern"
+      ],
+      "refinement": "tiny_joint_eye_mouth_and_core",
+      "joint_score": 0.7323003370048861
+    },
+    {
+      "x": 466,
+      "y": 107,
+      "w": 12,
+      "h": 12,
+      "type": "face",
+      "confidence": 0.8593077908509594,
+      "source": "v4_local_face_pattern",
+      "merged_sources": [
+        "v4_local_face_pattern"
+      ],
+      "refinement": "tiny_joint_eye_mouth_and_core",
+      "joint_score": 0.7356587813387875
+    },
+    {
+      "x": 333,
+      "y": 300,
+      "w": 63,
+      "h": 18,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        298,
+        276,
+        123,
+        51
+      ],
+      "panel_xywh": [
+        335,
+        301,
+        51,
+        16
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 53.966331481933594,
+      "trace_runs": [
+        [
+          335,
+          56
+        ]
+      ]
+    },
+    {
+      "x": 368,
+      "y": 185,
+      "w": 36,
+      "h": 15,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        360,
+        180,
+        41,
+        20
+      ],
+      "panel_xywh": [
+        370,
+        186,
+        29,
+        13
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 43.244293212890625,
+      "trace_runs": [
+        [
+          371,
+          27
+        ]
+      ]
+    }
+  ],
+  "pii_19": [
+    {
+      "x": 373,
+      "y": 322,
+      "w": 17,
+      "h": 21,
+      "type": "face",
+      "confidence": 0.9046450870522955,
+      "source": "router_union",
+      "merged_sources": [
+        "v3_ellipse_eyes_lower_feature",
+        "v4_local_face_pattern"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.937007874015748
+    },
+    {
+      "x": 164,
+      "y": 212,
+      "w": 22,
+      "h": 28,
+      "type": "face",
+      "confidence": 0.8428649513124794,
+      "source": "router_union",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma",
+        "v4_local_face_pattern"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.973421926910299
+    },
+    {
+      "x": 302,
+      "y": 70,
+      "w": 31,
+      "h": 41,
+      "type": "face",
+      "confidence": 0.82,
+      "source": "local_ellipse_aligned_luminance_chroma",
+      "merged_sources": [
+        "local_ellipse_aligned_luminance_chroma"
+      ],
+      "refinement": "global_head_boundary_calibration",
+      "boundary_agreement": 0.9803921568627451
+    },
+    {
+      "x": 276,
+      "y": 206,
+      "w": 45,
+      "h": 19,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        261,
+        200,
+        63,
+        24
+      ],
+      "panel_xywh": [
+        277,
+        209,
+        34,
+        14
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 12.923315048217773,
+      "trace_runs": [
+        [
+          276,
+          42
+        ]
+      ]
+    },
+    {
+      "x": 364,
+      "y": 213,
+      "w": 43,
+      "h": 16,
+      "type": "plate",
+      "confidence": 0.72,
+      "source": "colour_body_neutral_panel_geometry",
+      "body_xywh": [
+        358,
+        205,
+        56,
+        25
+      ],
+      "panel_xywh": [
+        364,
+        216,
+        33,
+        11
+      ],
+      "merged_sources": [
+        "colour_body_neutral_panel_geometry"
+      ],
+      "refinement": "paired_vertical_minima_glyph_profile",
+      "profile_max": 7.525091171264648,
+      "trace_runs": [
+        [
+          392,
+          12
+        ]
+      ]
+    }
+  ]
+}

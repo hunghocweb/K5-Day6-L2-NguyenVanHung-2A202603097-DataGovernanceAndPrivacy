@@ -29,7 +29,7 @@ def main():
     queue["reviewer_decision"] = "approve"
     queue["override_value"] = ""
     queue["review_note"] = queue.item_id.map(observations["results"])
-    queue["reviewed_at"] = stamp
+    queue["reviewed_at"] = observations["reviewed_at"]
     queue["reviewer_kind"] = "ai"
     queue["human_review"] = "false"
     queue.to_csv(out / "ai_post_review.csv", index=False)

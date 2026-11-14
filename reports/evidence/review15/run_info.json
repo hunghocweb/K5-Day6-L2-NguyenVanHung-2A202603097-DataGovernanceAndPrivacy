@@ -1,0 +1,17 @@
+{
+  "track": "t07",
+  "run_name": "poc_review15",
+  "status": 0,
+  "seed": 42,
+  "offline": true,
+  "git_sha": "8f1e0db",
+  "runtime_seconds": null,
+  "stats": {
+    "n_items": 60,
+    "n_regions": 355,
+    "review_budget": 15
+  },
+  "source_inference": "reports/evidence/poc/run_info.json",
+  "export_only": true,
+  "note": "Recorded human corrections replayed; inference runtime is reported separately; no end-to-end human time measured."
+}

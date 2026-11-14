@@ -1,0 +1,8 @@
+{
+  "frozen_at": "2026-11-15T12:28:23.500344+07:00",
+  "source_sha256": "f17a202cec15e1bb995487c31d0d4cc127d28afbf7e3b17db5f9e4c5e6882001",
+  "scope": "synthetic_v3_experiment",
+  "quality_metrics": null,
+  "note": "Exploratory v3 including generic toy regression for thin digit strokes. Previously seen fixture examples are not an independent test set. Official v1 outputs unchanged.",
+  "previous_source_sha256": "2704525d4c9fd8f1a961e388caf0cd743c062589ba48585d63f853a394e6799a"
+}

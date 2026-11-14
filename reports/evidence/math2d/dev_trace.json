@@ -1,0 +1,1442 @@
+{
+  "pii_00": {
+    "ambiguous_heads": 4,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "a2e1e51af7971bb289880d5f97ae00b4708788b4cbd7df780efc7de012b00c2b"
+  },
+  "pii_02": {
+    "ambiguous_heads": 2,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "5506640159a51cd103183da398ba67fc0e5f2425013fe07699cda029b9058a61"
+  },
+  "pii_07": {
+    "ambiguous_heads": 6,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "a42a1427379d55ed0feb9512b2f1ec5bf12aabe9f7c8178aa32419f873eca6a3"
+  },
+  "pii_08": {
+    "ambiguous_heads": 6,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "8d13d28d2f43cdeca70004b8537e33af423dfd360e50e9eff5eb1644baefe5de"
+  },
+  "pii_10": {
+    "ambiguous_heads": 8,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "87a8ba44f5577665aa0e1e8a8349947b6b6a94f92c5756f44b48bd9521693cce"
+  },
+  "pii_11": {
+    "ambiguous_heads": 6,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "a97df4e4e8b006903a1082baa150f20ae7a1734254e5ca3a8463035c246d0ec6"
+  },
+  "pii_12": {
+    "ambiguous_heads": 4,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "eac409b38ae8c829fcb876e0dd5f7da5488085065a69f4672380d5369f7e253c"
+  },
+  "pii_14": {
+    "ambiguous_heads": 9,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "a9d63c0a396a43d43153b878f31439a35fecfcd4dbc6e0d599ef0a6dad906cd6"
+  },
+  "pii_15": {
+    "ambiguous_heads": 9,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 1.556796406001843,
+        "applied_sigma": 1.2454371248014746,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 1.556796406001843,
+        "applied_sigma": 1.556796406001843,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 1.556796406001843,
+        "applied_sigma": 1.8681556872022116,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "86521fa3db84996a2bda83a1383eb4167a92b77374bf2a78e2b7d301f779b2c7"
+  },
+  "pii_16": {
+    "ambiguous_heads": 2,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "d4101f63fc55774ecffc72892a66c6706dedae584f1e7a20f15ed7d58cdb5b47"
+  },
+  "pii_19": {
+    "ambiguous_heads": 11,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 1.5675630237231761,
+        "applied_sigma": 1.254050418978541,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 1.5675630237231761,
+        "applied_sigma": 1.5675630237231761,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 1.5675630237231761,
+        "applied_sigma": 1.8810756284678112,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "0e99a73789aa5d008e1c0f4d83b153c323ef97473fb73ec69c2a1ba8ccd20dda"
+  },
+  "pii_21": {
+    "ambiguous_heads": 2,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "ee89202c9920a5fe4566cda9a55c76a7fbfb3ed02b806d7f7cc89d575652befe"
+  },
+  "pii_22": {
+    "ambiguous_heads": 7,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "9ee48b3a204db9c6fbe06711baef609478886ce9fd7f392d2a928cea097a7c48"
+  },
+  "pii_24": {
+    "ambiguous_heads": 9,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 1.5732168953454904,
+        "applied_sigma": 1.2585735162763925,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 1.5732168953454904,
+        "applied_sigma": 1.5732168953454904,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 1.5732168953454904,
+        "applied_sigma": 1.8878602744145883,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "5363de7bf0c5bdc9db9bcca4f262f850de1942445f21f3e8e26f980ec325d687"
+  },
+  "pii_25": {
+    "ambiguous_heads": 6,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "da689c0b4987cd21e015f874b3d06966068c1edd25d39d554d076ea14d35ee49"
+  },
+  "pii_26": {
+    "ambiguous_heads": 11,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "873e70074d3bff52c2acf7f75b90cd580ccef7f79f5da082b6805fb0010e5cbe"
+  },
+  "pii_27": {
+    "ambiguous_heads": 9,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "e9d0d87f69dad409458c407bb8483dda7c381bc5fb01613c526b7c9ea082da57"
+  },
+  "pii_29": {
+    "ambiguous_heads": 6,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "ead46d19af1936ddc584997c7de0223a45b65334e33ad68fa6b29e90425ea3f6"
+  },
+  "pii_30": {
+    "ambiguous_heads": 5,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "b065139875e0e29fa10b5740a2b9bda1da85aea81ff0731fdfe5141a0461fe34"
+  },
+  "pii_31": {
+    "ambiguous_heads": 7,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "e9138c1ed9ffecfcf564eedb61a6d0dc55d3601234eeac79f888c6fa63a3b399"
+  },
+  "pii_34": {
+    "ambiguous_heads": 3,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "13604960649ea3d65933dbaf01af199fe86fcc0b4f82643568455bf2ce28886e"
+  },
+  "pii_36": {
+    "ambiguous_heads": 9,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "4d7e9a6d16409c920943ecd365e36aa61a5d1ac1390ce6297adbf7fd851133c5"
+  },
+  "pii_38": {
+    "ambiguous_heads": 15,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 1.4838065782653143,
+        "applied_sigma": 1.1870452626122514,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 1.4838065782653143,
+        "applied_sigma": 1.4838065782653143,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 1.4838065782653143,
+        "applied_sigma": 1.780567893918377,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "b1f1602096c1315d212b73948d6590a6a74581b04fd761cc755ec148936fbe92"
+  },
+  "pii_39": {
+    "ambiguous_heads": 4,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "e2b957ed82065c0b7cb305f40c4e288db67680a66ca631af215ecb3dd9a3ccb5"
+  },
+  "pii_40": {
+    "ambiguous_heads": 9,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 1.587921093163067,
+        "applied_sigma": 1.2703368745304537,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 1.587921093163067,
+        "applied_sigma": 1.587921093163067,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 1.587921093163067,
+        "applied_sigma": 1.9055053117956802,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "cbcfeaba5a1c5606ddc4605c656faccc69b8be8afd2f1de37de709d2998a621d"
+  },
+  "pii_42": {
+    "ambiguous_heads": 9,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "d276d863ec8959ad6c65ebf54ad6f04b40b272183c7807526bb2419b877d4ca9"
+  },
+  "pii_43": {
+    "ambiguous_heads": 10,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "49102cde88004ef504c3e9980e62f62974a4d86008e3836221d87bbecff205e9"
+  },
+  "pii_45": {
+    "ambiguous_heads": 8,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "14c8740a2d2a03207a6d2beaa4b37aff759cee986ea9791035db9363dea0bef5"
+  },
+  "pii_47": {
+    "ambiguous_heads": 4,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "154001a7809d7ca01e0a9b8b7552be0ecc224852feb33c61c38cb0c75ab596e8"
+  },
+  "pii_50": {
+    "ambiguous_heads": 10,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "591d9206ffb783344fef7a4662f56452387c346da73e9a8706a375fa8313dfd7"
+  },
+  "pii_51": {
+    "ambiguous_heads": 6,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "6eb84f5153e171776a7566edd281125ae25824132b4c7591e68ceb0c0e2e7425"
+  },
+  "pii_53": {
+    "ambiguous_heads": 1,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "0347d2ceaa9cf6d0ddae7407e01a0f3338e935fe196373aa3b640feac45fdb9b"
+  },
+  "pii_54": {
+    "ambiguous_heads": 4,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "886886796f65e55485c5df022d186da471bf665bd96a0392ec4505f7b8ec1b1c"
+  },
+  "pii_55": {
+    "ambiguous_heads": 4,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "0418f402052952b53a74b3b57f8e94bca631dadc92a72b36b077cb293e3efd75"
+  },
+  "pii_58": {
+    "ambiguous_heads": 2,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 0.0,
+        "applied_sigma": 0.0,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "f44205a51a6dbc1d7eaba705384ca1fdea76a0e7dd858710dc98a68aeaf48af5"
+  },
+  "pii_59": {
+    "ambiguous_heads": 5,
+    "algorithm": "math2d-dev-1",
+    "config": {
+      "restoration_gains": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "noise_ratio": 0.003,
+      "coarse_padding": 0.01,
+      "small_face_max_size": 20,
+      "panel_padding_x": 8,
+      "panel_padding_y": 4,
+      "fine_face_fraction": 0.0,
+      "plate_support_fraction": 0.0
+    },
+    "restoration": [
+      {
+        "estimated_sigma": 1.5815163451317662,
+        "applied_sigma": 1.265213076105413,
+        "noise_ratio": 0.003,
+        "gain": 0.8
+      },
+      {
+        "estimated_sigma": 1.5815163451317662,
+        "applied_sigma": 1.5815163451317662,
+        "noise_ratio": 0.003,
+        "gain": 1.0
+      },
+      {
+        "estimated_sigma": 1.5815163451317662,
+        "applied_sigma": 1.8978196141581194,
+        "noise_ratio": 0.003,
+        "gain": 1.2
+      }
+    ],
+    "requires_review": true,
+    "image_sha256": "e4bf5ce7e255fecab125e2d8ea4eabc7715998dd4479e1b7ac83479ba51c378b"
+  }
+}

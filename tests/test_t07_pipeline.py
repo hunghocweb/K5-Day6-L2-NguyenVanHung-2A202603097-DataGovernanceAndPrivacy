@@ -71,6 +71,27 @@ def test_t07_exports_only_declared_region_and_holds_without_human(context):
     assert context.audit.read() == []  # Never invent a human action.
 
 
+def test_precision_mode_uses_its_boxes_without_models_extra_padding_or_fake_review(context,monkeypatch):
+    from src import t07_precision_pipeline as precise
+    context.config['params']['synthetic_algorithm']='precision'
+    def reject_pretrained(*args,**kwargs):raise AssertionError('Precision must not initialize photo detectors')
+    monkeypatch.setattr(pipeline,'LocalDetectors',reject_pretrained)
+    box=dict(x=7,y=9,w=11,h=13,type='face',confidence=.9,source='precision_test')
+    monkeypatch.setattr(precise,'detect_details',lambda image:dict(boxes=[box],ambiguous_heads=0,
+        algorithm='precision-dev-1',estimated_sigma=1.5))
+    pipeline.run(context)
+    output=pd.read_csv(context.out('redactions.csv'))
+    assert tuple(output.iloc[0][['x','y','w','h']])==(7,9,11,13)
+    original=cv2.imread(str(context.input_dir/'sample.png'));redacted=cv2.imread(str(context.out('redacted/sample.png')))
+    outside=np.ones((64,64),bool);outside[9:22,7:18]=False
+    assert np.array_equal(original[outside],redacted[outside])
+    assert not np.array_equal(original[9:22,7:18],redacted[9:22,7:18])
+    trace=json.loads(context.out('precision_trace.json').read_text())
+    assert trace['sample']['route']=='2d' and trace['sample']['human_review_recorded'] is False
+    assert context.stats['algorithm']=='precision-dev-1'
+    assert context.audit.read()==[]
+
+
 def test_human_can_replace_boxes_and_replay_without_duplicate_audit(context):
     pipeline.run(context)
     replacement = [{"x": 32, "y": 32, "w": 12, "h": 8, "type": "plate"}]
@@ -236,3 +257,24 @@ def test_ai_correction_rejects_stale_export_before_writing(context):
     with pytest.raises(ValueError, match="Reviewed export changed"):
         apply_ai_corrections(context.input_dir, context.output_dir, out, proposals, summary)
     assert not out.exists()
+
+
+def test_auto_pipeline_exports_single_padding_and_route_without_human_event(context,monkeypatch):
+    from src import t07_auto
+    class Detector:
+        photo=None
+        def __init__(self,params):pass
+        def detect_details(self,image):
+            return dict(merged=[dict(x=20,y=20,w=20,h=20,type='face',confidence=.9,source='test')],
+                        ambiguous_heads=0,algorithm='auto-native-1',routing={'route':'2d'},review_reasons=[])
+    monkeypatch.setattr(t07_auto,'AutoDetectors',Detector)
+    def forbidden(*a,**kw):raise AssertionError('old detector must not run')
+    monkeypatch.setattr(pipeline,'LocalDetectors',forbidden)
+    context.config['params'].update(detection_pipeline='auto',padding=.1)
+    pipeline.run(context)
+    prediction=pd.read_csv(context.out('redactions.csv')).iloc[0]
+    assert [prediction[k] for k in ['x','y','w','h']]==[18,18,24,24]
+    trace=json.loads(context.out('routing_trace.json').read_text())['sample']
+    assert trace['routing']['route']=='2d' and trace['padding_applications']==1
+    assert trace['bbox_calibration_applied'] is False
+    assert context.audit.read()==[]

@@ -1,0 +1,14 @@
+﻿{
+    "command":  ".\\.venv\\Scripts\\python.exe -m pytest -q tests/test_t07_reviewed_experiment.py tests/test_t07_router.py tests/test_t07_rules_v3.py -o addopts= --junitxml=out/t07_reviewed_experiment_tests.xml",
+    "passed":  17,
+    "failed":  0,
+    "skipped":  0,
+    "seconds":  8.882,
+    "source":  "reports/evidence/reviewed_reference/pytest.xml",
+    "source_sha256":  "d18848e055cca852d6bf3f6fb0e35a71d3afbb8953fe68cd656474b8429a1374",
+    "inference_command":  ".\\.venv\\Scripts\\python.exe -m tools.evaluate_t07_reviewed",
+    "n_fixture_images":  60,
+    "reviewed_dev_images":  9,
+    "reviewed_eval_images":  6,
+    "review_journal_unchanged":  true
+}

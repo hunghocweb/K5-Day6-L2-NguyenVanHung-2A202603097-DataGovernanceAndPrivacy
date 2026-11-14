@@ -1,0 +1,16 @@
+{
+    "owner":  "Nguyễn Văn Hùng",
+    "files":  {
+                  "reports/metric_contract.md":  "c325b804383b037397862e00f17904357b61f11b4efdf64d834c00688aa1323f",
+                  "src/t07_detectors.py":  "c5c0c0caead1e2dfae02e9f851245d4327496faa91863cc62baaeff823557bc2",
+                  "src/t07_pipeline.py":  "10ed696d523df04da4a8adb75fc3d1e036c713aca9297ea06e8b0e9b459c63a1",
+                  "reports/t07_models.json":  "294e52178bb5875f8cfe8a20e4e275612f0236f72815152bc5c7be0df5e09bd6",
+                  "configs/lab.yaml":  "0488ed1fb11dde364ccea6073bf896fa5e3f7f8a8136282832e77e4b5dc228a5"
+              },
+    "frozen_at":  "2026-11-14T16:06:39.6673183+07:00",
+    "release_approved":  false,
+    "phase":  "before first all-split inference",
+    "gt_read":  false,
+    "student_id":  "202603097",
+    "group_id":  "G07"
+}

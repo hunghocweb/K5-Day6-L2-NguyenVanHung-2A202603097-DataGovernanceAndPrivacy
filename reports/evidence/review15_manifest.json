@@ -1,0 +1,43 @@
+{
+  "seed": 42,
+  "n_images": 60,
+  "review_budget": 15,
+  "n_regions": 355,
+  "queue_ids": [
+    "pii_57",
+    "pii_10",
+    "pii_24",
+    "pii_15",
+    "pii_48",
+    "pii_40",
+    "pii_52",
+    "pii_33",
+    "pii_08",
+    "pii_56",
+    "pii_38",
+    "pii_59",
+    "pii_12",
+    "pii_01",
+    "pii_19"
+  ],
+  "review_decisions": {
+    "approve": 14,
+    "edit": 1
+  },
+  "review_splits": {
+    "eval": 6,
+    "dev": 9
+  },
+  "reviewers": [
+    "Nguyễn Văn Hùng"
+  ],
+  "unchanged_outside_queue": 45,
+  "source_web_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+  "inference_source": "reports/evidence/poc/run_info.json",
+  "export_only": true,
+  "predictions_sha256": "540bed8e20299e7ff6cbb77e00f67f0fd0ced50440ab09df29f9b90e580e71de",
+  "quality_metrics": null,
+  "provenance": "Machine inference then AI-assisted correction and recorded human web decisions; no new review action.",
+  "review_scope": "original_top15",
+  "scope_updated_at": "2026-11-16T12:40:29.194685+07:00"
+}

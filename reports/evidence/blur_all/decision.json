@@ -1,0 +1,14 @@
+{
+  "status": "HOLD",
+  "reason_code": "INDEPENDENT_QA_PENDING",
+  "reason": "Queue complete; independent quality evidence and release approval still required",
+  "owner": "Nguyễn Văn Hùng - owner/reviewer",
+  "scope": "t07",
+  "evidence": [
+    "out\\blur_all\\redactions.csv",
+    "out\\blur_all\\review_state.json"
+  ],
+  "metrics": {},
+  "ts": "2026-11-14T13:08:47+00:00",
+  "canonical": "HOLD"
+}

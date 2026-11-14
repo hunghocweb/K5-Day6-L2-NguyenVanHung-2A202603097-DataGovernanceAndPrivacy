@@ -1,0 +1,18 @@
+group_id: G07
+owner: "Nguyễn Văn Hùng"
+track_config: tracks/t07.yaml
+track: t07
+pipeline: src.t07_pipeline
+input: fixtures/t07_redaction
+output: out/poc_auto_dev/
+seed: 42
+offline: true
+strict_provenance: true
+params:
+  budget: 15
+  processing_split: dev
+  detection_pipeline: auto
+  model_inventory: reports/t07_models.json
+  face_confidence: 0.9
+  plate_confidence: 0.25
+  padding: 0.0  # Additional user padding; frozen math2d retains its original margins.

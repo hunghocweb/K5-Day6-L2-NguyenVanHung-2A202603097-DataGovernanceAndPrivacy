@@ -1,0 +1,115 @@
+{
+  "observed_at": "2026-11-15T12:12:08.816953+07:00",
+  "remote_main_commit": "b0ce8bfd972315448aace86185c1a3e075754b93",
+  "local_head": "0cd85c3e5b7e62b65cc159371dbd123b39cc41e0",
+  "local_commits_not_on_main": [
+    "0cd85c3e5b7e62b65cc159371dbd123b39cc41e0 Add T07 review UI, walkthrough and submission evidence",
+    "26b2b5598a9ab3a9dd3f2127595b0d9218332167 Document T07 results, AI rework evidence, and reproducible demo plan",
+    "8f1e0db89f5771b0974c39db92729366f00bf5d8 Implement offline T07 redaction with audited review and AI corrections"
+  ],
+  "tags": [],
+  "review15": {
+    "seed": 42,
+    "n_images": 60,
+    "review_budget": 15,
+    "n_regions": 355,
+    "queue_ids": [
+      "pii_57",
+      "pii_10",
+      "pii_24",
+      "pii_15",
+      "pii_48",
+      "pii_40",
+      "pii_52",
+      "pii_33",
+      "pii_08",
+      "pii_56",
+      "pii_38",
+      "pii_59",
+      "pii_12",
+      "pii_01",
+      "pii_19"
+    ],
+    "review_decisions": {
+      "approve": 14,
+      "edit": 1
+    },
+    "review_splits": {
+      "eval": 6,
+      "dev": 9
+    },
+    "reviewers": [
+      "Nguyễn Văn Hùng"
+    ],
+    "extra_reviews": [
+      {
+        "item_id": "pii_00",
+        "split": "dev",
+        "decision": "edit",
+        "reviewer": "Nguyễn Văn Hùng",
+        "reviewed_at": "2026-11-15T03:32:20.190408+00:00",
+        "note": "phần người che nửaảnh ô tô màu hồng nhưng vân lộ biển sô vẫn chưa được che, ta đã vừa thêm vào để che hãy xem lại"
+      },
+      {
+        "item_id": "pii_02",
+        "split": "dev",
+        "decision": "reject",
+        "reviewer": "Nguyễn Văn Hùng",
+        "reviewed_at": "2026-11-15T03:34:02.705222+00:00",
+        "note": "biển vẫn chưa được che hết và một biển chưa được che, mặt cũng bị"
+      },
+      {
+        "item_id": "pii_03",
+        "split": "eval",
+        "decision": "reject",
+        "reviewer": "Nguyễn Văn Hùng",
+        "reviewed_at": "2026-11-15T03:35:48.049956+00:00",
+        "note": "phần 6(mặt) lại vẽ quanh chiếc ô tô cam, chiếc xe mà xanh lam biển số chưa được che hết(id1) và tại id3 thì lại tô phần thân người rồi đánh dấu là mặt"
+      }
+    ],
+    "unchanged_outside_queue": 45,
+    "source_web_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+    "inference_source": "reports/evidence/poc/run_info.json",
+    "export_only": true,
+    "predictions_sha256": "540bed8e20299e7ff6cbb77e00f67f0fd0ced50440ab09df29f9b90e580e71de",
+    "quality_metrics": null,
+    "provenance": "Machine inference then AI-assisted correction and recorded human web decisions; no new review action."
+  },
+  "gate": {
+    "status": "REWORK",
+    "completed": 15,
+    "budget": 15,
+    "reason_code": "REVIEW_REJECTED",
+    "owner": "Nguyễn Văn Hùng - owner/reviewer",
+    "scope": "t07_web_review",
+    "reason": "Có ảnh cần sửa tiếp"
+  },
+  "tests": {
+    "command": "python -m pytest -q -o addopts= --junitxml=out/submission_audit_tests.xml",
+    "passed": 83,
+    "skipped": 39,
+    "failed": 0,
+    "seconds": 49.954,
+    "source": "reports/evidence/pytest.xml"
+  },
+  "remote_report_state": "starter templates, config G00/T02",
+  "frozen_file_current_match": {
+    "reports/metric_contract.md": false,
+    "src/t07_detectors.py": true,
+    "src/t07_pipeline.py": false,
+    "reports/t07_models.json": true,
+    "configs/lab.yaml": true
+  },
+  "missing_official_metrics": [
+    "metrics_baseline.json",
+    "metrics_poc.json",
+    "table1_baseline_vs_poc.md"
+  ],
+  "bundle": {
+    "path": "submissions/T07_G07_review15_candidate.zip",
+    "bytes": 4405096,
+    "sha256": "8dbc12533dfdaa36a7787728a6def979efcb56c2be3c510d43791673e5e4b3a3"
+  },
+  "ready_for_final_submission": false,
+  "git_push_performed": false
+}

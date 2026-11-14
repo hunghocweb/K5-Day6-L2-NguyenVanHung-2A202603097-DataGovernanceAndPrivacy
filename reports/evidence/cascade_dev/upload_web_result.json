@@ -1,0 +1,45 @@
+{
+  "job": "8e42c9beb3fc41119e25c13bbb602bb8",
+  "state": "complete",
+  "n_face": 4,
+  "n_plate": 6,
+  "algorithm": "auto-cascade-1",
+  "selected_algorithm": "detailed-native-2d-v2",
+  "cascade": {
+    "primary_executed": false,
+    "fallback_executed": true,
+    "selected": "detailed_2d",
+    "reason": "drawing_detail_outside_primary_range",
+    "gate": {
+      "suitable": false,
+      "reason": "drawing_detail_outside_primary_range",
+      "palette_mass": 0.7681076388888889,
+      "edge_fraction": 0.07495659722222223,
+      "content_roi_xywh": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "feature_shape_hw": [
+        360,
+        640
+      ],
+      "config": {
+        "analysis_side": 640,
+        "colour_step": 24,
+        "dominant_colours": 24,
+        "min_palette_mass": 0.88,
+        "max_edge_fraction": 0.04
+      },
+      "measured_accuracy": null,
+      "calibration_scope": "dev_fixture_and_development_upload_only"
+    },
+    "primary_count": null
+  },
+  "padding": 0.0,
+  "seconds": 42.716,
+  "detector_padding_applied": false,
+  "human_review": false,
+  "notice": "Thanh trượt chỉ nới thêm vùng che. Kết quả tự động cần kiểm tra mặt/biển số còn lộ và vùng che nhầm; cổng chọn nhánh chưa được xác thực độc lập."
+}

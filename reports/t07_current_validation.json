@@ -1,0 +1,12 @@
+{
+  "tests": 198,
+  "errors": 0,
+  "failures": 0,
+  "skipped": 39,
+  "passed": 159,
+  "seconds": 53.754,
+  "command": "python -B -m pytest -q -p no:cacheprovider --junitxml=reports/evidence/cascade_dev/pytest_publish.xml",
+  "source": "reports/evidence/cascade_dev/pytest_publish.xml",
+  "scope": "isolated publication checkout without local output/review state",
+  "failed": 0
+}

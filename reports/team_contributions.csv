@@ -1,6 +1,2 @@
 member,git_author_name,git_email,role,modules_files,commit_shas,evidence_note,presenter
-Member 1,,,Lead / Integrator,src/main.py; configs/,,,
-Member 2,,,Data & fixtures,fixtures/; tools/,,,
-Member 3,,,Core algorithm,src/pipeline.py,,,
-Member 4,,,QA / metric,tests/; reports/metrics_*.json,,,
-Member 5,,,Human review + report,reports/group_report.md; demo/,,,
+Nguyễn Văn Hùng (2A202603097),hunghocweb,hunghocweb2709@gmail.com,Integration; algorithm; QA; human web review; report (Codex-assisted code),src/t07_*;src/web_review;tests/test_t07*;tools/*t07*;configs/lab.yaml;reports,8f1e0db89f5771b0974c39db92729366f00bf5d8,Human web decisions: reports/review_queue.csv; source actors retained in audit history; consolidated report and web evidence at main HEAD,not recorded

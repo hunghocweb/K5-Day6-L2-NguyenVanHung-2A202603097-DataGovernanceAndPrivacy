@@ -1,0 +1,108 @@
+{
+  "n_images": 9,
+  "n_reference_regions": 49,
+  "n_predictions": 51,
+  "missed_regions": 3,
+  "pii_miss_rate": 0.061224489795918366,
+  "region_success_rate": 0.9387755102040817,
+  "over_redaction_rate": 0.09636607199812881,
+  "over_outside_pixels": 4532,
+  "redacted_pixels": 47029,
+  "guardrail_pass": true,
+  "all_regions_covered_images": 6,
+  "bootstrap_95ci_miss": [
+    0.0,
+    0.125
+  ],
+  "bootstrap_95ci_over": [
+    0.07820724644569911,
+    0.1221454729816984
+  ],
+  "by_type": {
+    "face": {
+      "n_regions": 26,
+      "missed": 2,
+      "miss_rate": 0.07692307692307693
+    },
+    "plate": {
+      "n_regions": 23,
+      "missed": 1,
+      "miss_rate": 0.043478260869565216
+    }
+  },
+  "per_image": [
+    {
+      "image_id": "pii_10",
+      "n_gt": 5,
+      "missed": 1,
+      "mean_coverage": 0.928927211450081,
+      "outside_pixels": 595,
+      "redacted_pixels": 4816
+    },
+    {
+      "image_id": "pii_24",
+      "n_gt": 7,
+      "missed": 0,
+      "mean_coverage": 0.9516690902852547,
+      "outside_pixels": 599,
+      "redacted_pixels": 8126
+    },
+    {
+      "image_id": "pii_15",
+      "n_gt": 5,
+      "missed": 1,
+      "mean_coverage": 0.9386597307221543,
+      "outside_pixels": 355,
+      "redacted_pixels": 4551
+    },
+    {
+      "image_id": "pii_40",
+      "n_gt": 6,
+      "missed": 0,
+      "mean_coverage": 0.971313818003122,
+      "outside_pixels": 757,
+      "redacted_pixels": 7941
+    },
+    {
+      "image_id": "pii_08",
+      "n_gt": 6,
+      "missed": 0,
+      "mean_coverage": 0.9671094686137067,
+      "outside_pixels": 595,
+      "redacted_pixels": 5738
+    },
+    {
+      "image_id": "pii_38",
+      "n_gt": 6,
+      "missed": 1,
+      "mean_coverage": 0.943021874006826,
+      "outside_pixels": 390,
+      "redacted_pixels": 5838
+    },
+    {
+      "image_id": "pii_59",
+      "n_gt": 4,
+      "missed": 0,
+      "mean_coverage": 0.9708354032124524,
+      "outside_pixels": 799,
+      "redacted_pixels": 4162
+    },
+    {
+      "image_id": "pii_12",
+      "n_gt": 5,
+      "missed": 0,
+      "mean_coverage": 0.9549503128450498,
+      "outside_pixels": 159,
+      "redacted_pixels": 2070
+    },
+    {
+      "image_id": "pii_19",
+      "n_gt": 5,
+      "missed": 0,
+      "mean_coverage": 0.940402501909855,
+      "outside_pixels": 283,
+      "redacted_pixels": 3787
+    }
+  ],
+  "precision_guard_pass": true
+}

@@ -1,0 +1,177 @@
+{
+  "reference_kind": "user_reviewed_redaction_boxes",
+  "journal": "out/web_review/audit_log.jsonl",
+  "journal_sha256": "d60d1e1fff07581602c6d997852e13998fdde437b58d5c70386de111b8fb5604",
+  "included": [
+    {
+      "image_id": "pii_57",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:18:51.013662+00:00",
+      "source_image_sha256": "a3c1d0a86292dbb37e040cff63bd3d308807c3b3b5e9da4ce9ad0fad4f9680d0",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_10",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:19:52.770550+00:00",
+      "source_image_sha256": "87a8ba44f5577665aa0e1e8a8349947b6b6a94f92c5756f44b48bd9521693cce",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 5
+    },
+    {
+      "image_id": "pii_24",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:20:13.808794+00:00",
+      "source_image_sha256": "5363de7bf0c5bdc9db9bcca4f262f850de1942445f21f3e8e26f980ec325d687",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 7
+    },
+    {
+      "image_id": "pii_15",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:25:47.340425+00:00",
+      "source_image_sha256": "86521fa3db84996a2bda83a1383eb4167a92b77374bf2a78e2b7d301f779b2c7",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 5
+    },
+    {
+      "image_id": "pii_48",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:26:03.126258+00:00",
+      "source_image_sha256": "d492b5274f41c6db5ba0d42e497cbf0f94c79a3fe45151ca5a4a627454e1156a",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_40",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:26:13.463112+00:00",
+      "source_image_sha256": "cbcfeaba5a1c5606ddc4605c656faccc69b8be8afd2f1de37de709d2998a621d",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_52",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:26:25.088004+00:00",
+      "source_image_sha256": "d12252c9c9ebd5735e4fae1a537a1bc6a200608110d3225f9f5a69125863d750",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 4
+    },
+    {
+      "image_id": "pii_33",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:26:35.734643+00:00",
+      "source_image_sha256": "cef4ee89741e133351aa4a95aaf16532e2a021da520568922e20ae7f3b3eb425",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 5
+    },
+    {
+      "image_id": "pii_08",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "edit",
+      "reviewed_at": "2026-11-15T03:27:58.633967+00:00",
+      "source_image_sha256": "8d13d28d2f43cdeca70004b8537e33af423dfd360e50e9eff5eb1644baefe5de",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_56",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:24.824147+00:00",
+      "source_image_sha256": "d19a1c5f8aeb726a07b2d617d5133f574a6b604a90f422922becf72dd0f27889",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_38",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:33.390656+00:00",
+      "source_image_sha256": "b1f1602096c1315d212b73948d6590a6a74581b04fd761cc755ec148936fbe92",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 6
+    },
+    {
+      "image_id": "pii_59",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:39.180010+00:00",
+      "source_image_sha256": "e4bf5ce7e255fecab125e2d8ea4eabc7715998dd4479e1b7ac83479ba51c378b",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 4
+    },
+    {
+      "image_id": "pii_12",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:48.688849+00:00",
+      "source_image_sha256": "eac409b38ae8c829fcb876e0dd5f7da5488085065a69f4672380d5369f7e253c",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 5
+    },
+    {
+      "image_id": "pii_01",
+      "split": "eval",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:53.855572+00:00",
+      "source_image_sha256": "0c7248a97da3ba893323dcde00b2bbb51fe086dddcb265098af08ef6cb3d5405",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 4
+    },
+    {
+      "image_id": "pii_19",
+      "split": "dev",
+      "reviewer": "Nguyễn Văn Hùng",
+      "decision": "approve",
+      "reviewed_at": "2026-11-15T03:28:58.204673+00:00",
+      "source_image_sha256": "0e99a73789aa5d008e1c0f4d83b153c323ef97473fb73ec69c2a1ba8ccd20dda",
+      "review_snapshot": "50be5121c7f51d7cc91d701fa034de5854a2e4a3ec60017073d3fed87d56609e",
+      "n_regions": 5
+    }
+  ],
+  "excluded_reviewed_images": [
+    {
+      "image_id": "pii_00",
+      "split": "dev",
+      "reason": "outside_queue_edit_has_unresolved_note"
+    },
+    {
+      "image_id": "pii_02",
+      "split": "dev",
+      "reason": "latest_review_reject"
+    },
+    {
+      "image_id": "pii_03",
+      "split": "eval",
+      "reason": "latest_review_reject"
+    }
+  ],
+  "scope": "original top15 risk queue only; no additional review performed",
+  "not_official_gt": true,
+  "not_independent_holdout": true
+}

@@ -26,6 +26,8 @@ Chọn challenge: sửa `configs/lab.yaml` (`track`, `track_config`, `owner`, `g
 
 Owner: Nguyễn Văn Hùng, MSSV 202603097. Windows PowerShell dùng Python trực tiếp:
 
+Hồ sơ hiện tại: [báo cáo theo template Day06](reports/group_report.md), [checklist và danh sách file cần nộp](reports/submission_checklist.md), [gói kết quả review15](submissions/T07_G07_review15_candidate.zip). Trạng thái **REWORK**: còn hai reject và chưa có metric GT độc lập; tag demo/final chưa tạo. Bản GitHub `main` tại lần đối chiếu 15/11/2026 vẫn là starter; các thay đổi đang được hoàn thiện local.
+
 ```powershell
 py -3.13 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
@@ -41,7 +43,25 @@ Trên macOS/Linux: `make setup`, `.venv/bin/python -m tools.prepare_t07_models`,
 Khi demo offline, `python -m tools.prepare_t07_models --offline` chỉ kiểm weights có sẵn; pipeline không tải model.
 
 Hướng dẫn review và replay audit: [T07 runbook](docs/T07_RUNBOOK.md).
-Kết quả máy giữ tại `out/poc`; review và sửa riêng từng ảnh bởi Codex AI giữ tại `out/ai_review` và `out/poc_ai_corrected`, với nguồn reviewer được ghi rõ. Không coi chúng là nhãn GT độc lập hoặc kết quả người thật duyệt.
+
+### Web review T07 tại máy
+
+**Bấm đúp `MO_WEB_T07.cmd` ở thư mục gốc repo** để tự khởi động server và mở trình duyệt.
+
+Sau khi đã chạy PoC, mở giao diện thao tác trực tiếp:
+
+```powershell
+.\.venv\Scripts\python.exe -m tools.t07_review_web
+```
+
+Truy cập **http://127.0.0.1:8765**. Chọn ảnh → so sánh baseline/PoC/bản sửa → vẽ, kéo, đổi kích thước hoặc xóa vùng che → nhập reviewer và quyết định → **Lưu**.
+Nút **Xuất ảnh & nhật ký** tải ZIP gồm 60 ảnh PNG, `redactions.csv`, review CSV, audit và quyết định.
+Phiên web lưu riêng tại `out/web_review`, bắt đầu từ `out/poc_ai_corrected` nếu có, nếu không dùng `out/poc`.
+Lượt duyệt cũ không tự chuyển thành quyết định mới trên web. Chi tiết: [hướng dẫn web](docs/T07_WEB_REVIEW.md).
+
+**Tải ảnh khác và xem thuật toán chạy từng bước:** bấm đúp `MO_XEM_TUNG_BUOC_T07.cmd`, mở [trang xem từng bước](http://127.0.0.1:8765/walkthrough). Chọn ảnh → tiền xử lý → phát hiện → gộp trùng → nới vùng → blur; có ảnh trung gian và tải kết quả PNG/CSV/ZIP. Xử lý local bằng model có sẵn. Chi tiết và giới hạn: [hướng dẫn walkthrough](docs/T07_WALKTHROUGH.md).
+
+Kết quả máy giữ tại `out/poc`; đề xuất sửa ban đầu giữ tại `out/ai_review` và `out/poc_ai_corrected`. Nguyễn Văn Hùng đã lưu 14 approve và 1 edit cho queue15 trên web; [review_queue.csv](reports/review_queue.csv) và các journal giữ riêng nguồn sửa/duyệt. Ba lượt web ngoài queue được ghi riêng, không áp vào gói review15. Các vùng này không được coi là GT độc lập.
 Nguồn/checksum/license: `reports/t07_models.json`; giới hạn license weights YOLO được ghi tại đó.
 
 ```powershell
