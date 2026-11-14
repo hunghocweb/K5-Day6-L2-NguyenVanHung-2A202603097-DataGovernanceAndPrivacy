@@ -1,0 +1,3 @@
+# Preserve text bytes used by fixture checksums and source/config snapshots.
+* text=auto eol=lf
+fixtures/** text=auto eol=lf

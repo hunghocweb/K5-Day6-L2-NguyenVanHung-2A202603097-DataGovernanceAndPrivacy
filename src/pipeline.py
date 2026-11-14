@@ -85,6 +85,9 @@ def decide(ctx: RunContext, final: pd.DataFrame) -> Decision:
 
 
 def run(ctx: RunContext) -> None:
+    if ctx.track == "t07":
+        from .t07_pipeline import run as run_t07
+        return run_t07(ctx)
     spec = get_track(ctx.track)
     data = load(ctx)
     scored = process(ctx, data)

@@ -1,0 +1,23 @@
+{
+  "reviewer": "Codex (AI visual re-review)",
+  "reviewer_kind": "ai",
+  "independent_validation": false,
+  "scope": "Direct inspection of the 15 corrected PNG exports, checking the issues recorded in the first visual review. Not hidden GT or full-batch privacy certification.",
+  "results": {
+    "pii_57": "Các ký tự biển số từng lộ ở mép phải đã nằm trong vùng làm mờ; các mặt đã che được giữ nguyên.",
+    "pii_10": "Các đuôi ký tự của ba biển số không còn nhìn thấy ở mép phải; hai mặt nổi vẫn được che.",
+    "pii_24": "Các mặt đã ghi nhận và biển số xe đỏ phía sau đã có vùng che; đầu quay lưng vẫn giữ nguyên.",
+    "pii_15": "Mặt lớn phía trên và mặt nhỏ cạnh xe xanh được che; ba biển số đã có vùng che đúng vị trí.",
+    "pii_48": "Các ký tự 6 và 1 từng lộ ngoài vùng che đã được phủ; vùng mặt trước đó vẫn được che.",
+    "pii_40": "Bốn mặt và hai biển số đã được che; kính xe xanh được khôi phục từ ảnh nguồn.",
+    "pii_52": "Ký tự 2 từng lộ ở mép phải biển số không còn hiện; ba vùng mặt được giữ nguyên.",
+    "pii_33": "Các đuôi chữ/số bên phải ba biển số không còn hiện; hai vùng mặt vẫn được che.",
+    "pii_08": "Mặt tối phía trên bên trái đã được che; biển số trước và hai biển số phía xa có vùng che rộng đủ phần chữ nhìn thấy.",
+    "pii_56": "Các đuôi ký tự bên phải ba biển số không còn hiện; các vùng mặt và đầu quay lưng giữ đúng hướng xử lý.",
+    "pii_38": "Ba mặt và các biển số được che; kính xe cam và xe nâu không còn bị làm mờ nhầm.",
+    "pii_59": "Hai mặt đã được che, biển số xe xanh phía sau được bổ sung và vùng biển số trước đã mở rộng.",
+    "pii_12": "Ba vùng mặt rất nhỏ đã được che; đuôi 27 và phần chữ biển số xe phía sau không còn lộ.",
+    "pii_01": "Các đuôi 14 và 58 từng lộ đã được phủ; hai vùng mặt giữ nguyên.",
+    "pii_19": "Ba vùng mặt đã được bổ sung; biển số xe hồng phía sau và xe tím phía trước có vùng che."
+  }
+}

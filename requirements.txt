@@ -11,6 +11,10 @@ matplotlib>=3.8
 pyyaml>=6.0
 pytest>=8.0
 
+# G07 T07 local CPU inference (prepared before offline demo).
+open-image-models[onnx]==0.6.0
+onnxruntime==1.32.0
+
 # Only for instructor/TA data prep (tools/download_real_samples.py) — not needed at demo time
 huggingface_hub>=0.24
 

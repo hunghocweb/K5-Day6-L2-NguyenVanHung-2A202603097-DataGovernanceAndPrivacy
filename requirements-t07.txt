@@ -1,0 +1,3 @@
+# Install during preparation; inference must use local weights without downloads.
+-r requirements.txt
+# T07 dependencies are included in the standard requirements for this submission.

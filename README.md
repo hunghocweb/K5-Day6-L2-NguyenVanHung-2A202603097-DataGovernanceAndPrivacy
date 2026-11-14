@@ -22,6 +22,35 @@ make baseline TRACK=t11      # ghi out/baseline/; repo học viên không có gt
 
 Chọn challenge: sửa `configs/lab.yaml` (`track`, `track_config`, `owner`, `group_id`), đọc `docs/tracks/TXX.md`.
 
+### Bản nộp G07 chọn T07
+
+Owner: Nguyễn Văn Hùng, MSSV 202603097. Windows PowerShell dùng Python trực tiếp:
+
+```powershell
+py -3.13 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+# Chuẩn bị có mạng trước demo; model tải về phải khớp inventory SHA256:
+.\.venv\Scripts\python.exe -m tools.prepare_t07_models
+.\.venv\Scripts\python.exe -m tools.preflight
+.\.venv\Scripts\python.exe -m pytest -q
+.\.venv\Scripts\python.exe -m src.main --config configs/lab.yaml --track t07 --output out/poc --run-name poc --offline --seed 42
+```
+
+Trên macOS/Linux: `make setup`, `.venv/bin/python -m tools.prepare_t07_models`, rồi `make preflight test run`.
+`make baseline TRACK=t07` dùng `src.t07_baseline`; đối chứng: `python -m src.main --track t07 --pipeline src.t07_blur_all --output out/blur_all --offline --seed 42`.
+Khi demo offline, `python -m tools.prepare_t07_models --offline` chỉ kiểm weights có sẵn; pipeline không tải model.
+
+Hướng dẫn review và replay audit: [T07 runbook](docs/T07_RUNBOOK.md).
+Kết quả máy giữ tại `out/poc`; review và sửa riêng từng ảnh bởi Codex AI giữ tại `out/ai_review` và `out/poc_ai_corrected`, với nguồn reviewer được ghi rõ. Không coi chúng là nhãn GT độc lập hoặc kết quả người thật duyệt.
+Nguồn/checksum/license: `reports/t07_models.json`; giới hạn license weights YOLO được ghi tại đó.
+
+```powershell
+# Chỉ áp các đề xuất bbox AI đã ghi vào đúng pool/snapshot đã review:
+.\.venv\Scripts\python.exe -m tools.apply_t07_ai_corrections
+```
+
+Các số đo chất lượng chính thức vẫn cần GT của giảng viên. Báo cáo kết quả và giới hạn: `reports/group_report.md`.
+
 ## 2. Contract lệnh (giảng viên sẽ chạy đúng các lệnh này)
 
 | Lệnh | Điều kiện PASS |

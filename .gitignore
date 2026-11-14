@@ -19,6 +19,11 @@ out/
 runs/
 *.log
 
+# Downloaded pretrained weights; keep source/checksum/license inventory in reports.
+models_optional/*.onnx
+models_optional/*.jit
+models_optional/*.pt
+
 # Python
 .venv/
 venv/

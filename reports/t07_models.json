@@ -1,0 +1,32 @@
+{
+  "prepared_on": "2026-11-14",
+  "runtime": {"opencv": "5.0.0", "onnxruntime": "1.32.0", "open-image-models": "0.6.0", "provider": "CPUExecutionProvider"},
+  "face": {
+    "name": "YuNet 2023mar",
+    "path": "models_optional/face_detection_yunet_2023mar.onnx",
+    "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+    "source": "https://media.githubusercontent.com/media/opencv/opencv_zoo/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx",
+    "license": "MIT",
+    "license_source": "https://github.com/opencv/opencv_zoo/blob/main/models/face_detection_yunet/LICENSE",
+    "classes": ["face"],
+    "input": [320, 320],
+    "default_confidence": 0.9
+  },
+  "plate": {
+    "name": "YOLOv9-t 640 license plate end2end",
+    "path": "models_optional/yolo-v9-t-640-license-plates-end2end.onnx",
+    "sha256": "c3c1026ca7d0585dd88084d68182dd897113712fa734ae1557ca70174440c076",
+    "source": "https://github.com/ankandrew/open-image-models/releases/download/assets/yolo-v9-t-640-license-plates-end2end.onnx",
+    "license": "Repository MIT; weight licensing not conclusively clarified by upstream author",
+    "license_source": "https://github.com/ankandrew/open-image-models/issues/14",
+    "license_review_required": true,
+    "classes": ["plate"],
+    "input": [640, 640],
+    "default_confidence": 0.25
+  },
+  "limitations": [
+    "Dev probe: YuNet produced 0 face boxes; YOLO produced 29 plate boxes on 36 synthetic images. Counts are not recall or precision.",
+    "PoC supplemental head/face and plate proposals are fixture-specific image heuristics, not a trained head detector.",
+    "No claim of legal approval or commercial eligibility for the plate weights. Do not redistribute weights with the repository."
+  ]
+}
